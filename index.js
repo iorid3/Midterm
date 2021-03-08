@@ -43,9 +43,3 @@ document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fridge.svg",te
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/vegetable.svg",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fruits.svg",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
-
-
-
-
-
-
