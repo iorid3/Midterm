@@ -28,7 +28,7 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
                 width: 500px;
                 left: 100px;
                 bottom: 10px;
-            'src="Images/chat.svg" />
+            'src="Images/chat" />
 
             <div style='
                 display: inline-flex;

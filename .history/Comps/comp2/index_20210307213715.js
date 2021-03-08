@@ -30,7 +30,7 @@ function Comp2UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
                 bottom: 10px;
                 z-index:-1;
                 transform: rotateY(180deg)
-            ' src="Images/chat2.svg" />
+            ' src="https://static.thenounproject.com/png/739210-200.png" />
 
             <div style='
                 display: inline-flex;

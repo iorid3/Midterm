@@ -28,7 +28,7 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
                 width: 500px;
                 left: 100px;
                 bottom: 10px;
-            'src="Images/chat.svg" />
+            'src="https://static.thenounproject.com/png/739210-200.png" />
 
             <div style='
                 display: inline-flex;
