@@ -19,10 +19,10 @@ document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'Images/down-arrow.
 
 
 
-document.querySelector(".comp9").innerHTML += Comp9UI("images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
-document.querySelector(".comp9").innerHTML += Comp9UI("images/2.svg", "Consume your leftover food first");
-document.querySelector(".comp9").innerHTML += Comp9UI("images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
-document.querySelector(".comp9").innerHTML += Comp9UI("images/4.svg", "Be mindful of saving the environment by reducing food waste");
+document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
+document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume your leftover food first");
+document.querySelector(".comp9").innerHTML += Comp9UI("Images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
+document.querySelector(".comp9").innerHTML += Comp9UI("Images/4.svg", "Be mindful of saving the environment by reducing food waste");
 
 document.querySelector(".comp10").innerHTML += Comp10UI("60px", "120deg", "0px", "0px", "1s");
 document.querySelector(".comp10").innerHTML += Comp10UI("75px", "80deg", "70px", "100px", "1.5s");
@@ -42,10 +42,4 @@ document.querySelector(".comp7").innerHTML +=  Graphcomp("images/fruits.svg",tex
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("images/fridge.svg",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("images/vegetable.svg",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("images/fruits.svg",text ="Made excessive food (37.3%)",color ="red",width ="150px");
-
-
-
-
-
-
 
