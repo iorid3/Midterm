@@ -23,7 +23,7 @@ document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'Images/down-arrow.
 
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume your leftover food first");
-document.querySelector(".comp9").innerHTML += Comp9UI("Images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
+document.querySelector(".comp9").innerHTML += Comp9UI("iImages/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/4.svg", "Be mindful of saving the environment by reducing food waste");
 
 document.querySelector(".comp10").innerHTML += Comp10UI("60px", "120deg", "0px", "0px", "1s");
