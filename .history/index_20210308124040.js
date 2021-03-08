@@ -20,5 +20,5 @@ document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bre
 document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,380)
 document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,545)
 
-document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'Images/down-arrow.svg')
+document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'icons/down-arrow.svg')
 
