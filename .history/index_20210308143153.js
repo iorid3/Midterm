@@ -1,6 +1,5 @@
-document.querySelector(".comp1").innerHTML += Comp1UI("Images/question.svg","25px", "Poppins", "What's the issue?");
-document.querySelector(".comp2").innerHTML += Comp2UI("Images/professor.svg", "25px", "Poppins", "Good Question!");
-
+document.querySelector(".comp1").innerHTML += Comp1UI("./images/question.svg","25px", "Poppins", "What's the issue?");
+document.querySelector(".comp2").innerHTML += Comp2UI("./images/professor.svg", "25px", "Poppins", "Good Question!");
 
 //add claudia's componenets
 
