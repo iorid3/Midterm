@@ -43,6 +43,6 @@ function Comp1UI(url="https://placekitten.com/300/300", size ="10px", font= "Ari
     </div>`
 }
 
-Comp1UI.HandleClick = (el) => { 
+Comp1UI.HandleClick = (el) => {  // . before AvatarUI means to go inside the function HandleClick
     el.style.opacity = 1;
 }
