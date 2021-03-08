@@ -1,4 +1,4 @@
-function Comp2UI(url="https://placekitten.com/300/300", size ="10px", font= "Poppins", text="text"){
+function Comp2UI(url="https://placekitten.com/300/300", size ="10px", font= "Arial", text="text"){
     return `<div style='
         width: 100vw;
         height: 30vh;
@@ -45,6 +45,6 @@ function Comp2UI(url="https://placekitten.com/300/300", size ="10px", font= "Pop
     </div>`
 }
 
-Comp2UI.HandleClick = (el) => {  
+Comp2UI.HandleClick = (el) => {  // . before AvatarUI means to go inside the function HandleClick
     el.style.opacity = 1;
 }
