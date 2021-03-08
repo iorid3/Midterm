@@ -1,46 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume your leftover food first");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
