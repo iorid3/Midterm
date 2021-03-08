@@ -5,6 +5,8 @@ function Comp2UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
         display: inline-flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        z-index: 0;
         transition: opacity 1s;
         opacity: 0.25;
     '
@@ -26,8 +28,9 @@ function Comp2UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
                 width: 500px;
                 right: 200px;
                 bottom: 10px;
+                z-index:-1;
                 transform: rotateY(180deg)
-            ' src="Images/chat2.svg" />
+            ' src="Images/chat" />
 
             <div style='
                 display: inline-flex;

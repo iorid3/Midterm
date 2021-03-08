@@ -1,10 +1,12 @@
 function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text="text"){
     return `<div style='
             width: 100vw;
-            height: 30vh;
+            height: 100vh;
             display: inline-flex;
             justify-content: center;
             align-items: center;
+            position: relative;
+            z-index: 0;
             transition: opacity 1s;
             opacity: 0.25;
         '

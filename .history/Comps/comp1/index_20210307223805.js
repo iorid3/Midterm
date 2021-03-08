@@ -1,10 +1,10 @@
 function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text="text"){
     return `<div style='
-            width: 100vw;
-            height: 30vh;
-            display: inline-flex;
+            display: flex;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
+            position: relative;
             transition: opacity 1s;
             opacity: 0.25;
         '
@@ -13,26 +13,30 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
 
         <img style='
             display: inline-flex;
-            width: 200px;
+            width: 100vw;
+            height: 100vh;
+
             position: relative;
-            left: 140px;
-            top: 60px;
+            left: 100px;
+            top: 500px;
         'src="${url}" />
 
         <div>
             <img style='
                 display: inline-flex;
                 position: relative;
-                width: 500px;
-                left: 100px;
+                width: 0px;
+                left: 0px;
                 bottom: 10px;
+                z-index: 0;
             'src="Images/chat.svg" />
 
             <div style='
                 display: inline-flex;
                 position: relative;
-                bottom: 280px;
-                right: 265px;
+                z-index: 0;
+                bottom: 0px;
+                right: 0px;
                 font-size: ${size};
                 font-weight: bold;
                 font-family: ${font};

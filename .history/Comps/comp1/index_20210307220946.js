@@ -5,6 +5,8 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
             display: inline-flex;
             justify-content: center;
             align-items: center;
+
+            z-index: 0;
             transition: opacity 1s;
             opacity: 0.25;
         '

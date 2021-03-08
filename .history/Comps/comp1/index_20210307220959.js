@@ -5,6 +5,8 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
             display: inline-flex;
             justify-content: center;
             align-items: center;
+
+            z-index: 0;
             transition: opacity 1s;
             opacity: 0.25;
         '
@@ -14,7 +16,7 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
         <img style='
             display: inline-flex;
             width: 200px;
-            position: relative;
+
             left: 140px;
             top: 60px;
         'src="${url}" />
@@ -22,7 +24,7 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
         <div>
             <img style='
                 display: inline-flex;
-                position: relative;
+
                 width: 500px;
                 left: 100px;
                 bottom: 10px;

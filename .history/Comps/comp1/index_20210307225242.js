@@ -5,6 +5,8 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
             display: inline-flex;
             justify-content: center;
             align-items: center;
+            position: relative;
+            z-index: 0;
             transition: opacity 1s;
             opacity: 0.25;
         '
@@ -26,7 +28,7 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
                 width: 500px;
                 left: 100px;
                 bottom: 10px;
-            'src="Images/chat.svg" />
+            'src="https://static.thenounproject.com/png/739210-200.png" />
 
             <div style='
                 display: inline-flex;
@@ -41,6 +43,8 @@ function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
     </div>`
 }
 
-Comp1UI.HandleClick = (el) => { 
+Comp1UI.HandleClick = (el) => {  // . before AvatarUI means to go inside the function HandleClick
     el.style.opacity = 1;
 }
+
+// export const Comp1 = Comp1UI();
