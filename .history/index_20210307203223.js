@@ -2,6 +2,8 @@ document.querySelector(".comp1").innerHTML += Comp1UI("./images/question.svg","2
 document.querySelector(".comp2").innerHTML += Comp2UI("./images/professor.svg", "25px", "Poppins", "Good Question!");
 
 
+
+
 //add claudia's componenets
 
 document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.svg')
