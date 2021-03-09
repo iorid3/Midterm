@@ -261,7 +261,7 @@ html {
     top: 50rem;
 }
 
-.footsteps-container {
+.comp10 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -270,15 +270,12 @@ html {
     animation-name: footsteps;
     top: -150px;
     left: -100px;
+    z-index: -1;
 }
 
 @keyframes footsteps {
     from {opacity: 100%;}
     to {opacity: 0%;}
-}
-
-.comp10 {
-    display: flex;
 }
 
 .earthonsteps {
@@ -309,8 +306,9 @@ html {
     width: 400px;
 }
 
-.comp5_phonearrow {
+.comp5_arrowphone {
     position: relative;
+    transform: rotate(-90deg);
 }
 .start {
     font-size: 1.2em;

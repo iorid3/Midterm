@@ -43,12 +43,12 @@ document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume y
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/4.svg", "Be mindful of saving the environment by reducing food waste");
 
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("40px", "120deg", "0px", "0px", "1s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("50px", "80deg", "10px", "60px", "1.5s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("65px", "80deg", "20px", "120px", "2s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("75px", "100deg", "30px", "200px", "2.5s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("90px", "130deg", "40px", "280px", "3s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("100px", "150deg", "90px", "300px", "3.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("40px", "120deg", "10px", "-100px", "1s");
+document.querySelector(".comp10").innerHTML += Comp10UI("50px", "80deg", "20px", "20px", "1.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("65px", "80deg", "40px", "120px", "2s");
+document.querySelector(".comp10").innerHTML += Comp10UI("75px", "100deg", "50px", "250px", "2.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "320px", "3s");
+document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "180px", "300px", "3.5s");
 
 document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
-document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-350, -100, 'Images/down-arrow.svg')
+document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
