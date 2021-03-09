@@ -12,86 +12,34 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* Leighai's work */
 .section1{
- display: flex;
- flex-direction: row;
-  width:30%; 
-  height: 30%;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
 }
-
-.comp1{
-    position: absolute;
-}
-
-.container1{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: row;
-    margin-top:100px;
-    margin-bottom:100px;
-}
-
-.arrow_box{
-    position:relative;
-    width:300px;
-    height:70px;
-    background:#FFE6E6;
-    text-align:center;
-    border:5px solid #FFFFFF;
-    color:#FFFFFF;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:40px;
-    -webkit-border-radius:40px;
-    -moz-border-radius:40px;
-    text-shadow:0px 0px 0px #FFFFFF ;
-}
-.arrow_box:after,.arrow_box:before{
-    border: solid transparent;
-    content:'';
-    height:0;
-    width:0;
-    pointer-events:none;
-    position:absolute;
-    top:100%;
-    left:22%;
-}
-.arrow_box:after{
-    border-color: rgba(255, 230, 230, 0);
-    border-top-width:14px;
-    border-bottom-width:14px;
-    border-left-width:13px;
-    border-right-width:13px;
-    margin-left: -13px;
-    border-top-color:#FFE6E6;
-}
-.arrow_box:before{
-    border-color: rgba(255, 255, 255, 0);
-    border-top-width:19px;
-    border-bottom-width:19px;
-    border-left-width:18px;
-    border-right-width:18px;
-    margin-left: -18px;
-    margin-top: 5px;
-    border-top-color:#FFFFFF;
-}
-#image {
-    width: 500px;
-    display: flex;
-    justify-content: center;
+#header1 {
+    flex-direction: center;
     align-items: center; 
 }
 
-.comp1, .comp2, .comp3 {
+#earth {
+    width: 400%;
     display: flex;
-    flex-basis: 50%;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.comp1, .comp2  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
 }
 
 /*claudia's work*/
