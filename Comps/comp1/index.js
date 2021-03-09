@@ -9,7 +9,6 @@ function Comp1UI(size ="10px", text="text"){
             justify-content: ;
             transition: opacity 1s;
             opacity: 0.25;
-            border: 2px solid black;
         '
         onclick='Comp1UI.HandleClick(this)'
         >
