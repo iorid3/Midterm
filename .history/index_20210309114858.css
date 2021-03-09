@@ -32,14 +32,8 @@ html,body{
     margin:100px;
 }
 
-.container2{
-   display: flex;
-   flex-direction: row;
-}
-
-.icons{
-    width: 100%;
-    height: 100px;
+.container2>img{
+    width:100%;
 
 }
 
@@ -54,9 +48,6 @@ html,body{
     margin:100px;
 }
 
-.container3{
-    margin:100px; 
-}
 
 .section5{
     width:100%
