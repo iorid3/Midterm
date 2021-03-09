@@ -23,6 +23,7 @@ html {
   justify-content: center;
   align-items: center; 
   position: relative;
+  width: 100%;
 }
 #header1 {
     flex-direction: center;
