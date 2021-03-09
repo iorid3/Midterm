@@ -8,20 +8,18 @@ function Comp1UI(size ="10px", text="text"){
             align-items: center;
             transition: opacity 1s;
             opacity: 0.25;
-            position:absolute;
+            position: relative;
         '
         onclick='Comp1UI.HandleClick(this)'
         >
 
         <img style='
-            display: inline-flex;
+            display: flex;
             width: 100%;
             height:100%;
             object-fit: cover;
-            position: relative;
-            left: 140px;
-            top: 60px;
-        'src="Images/confusion.png" />
+            
+        'src="Images/confusion.png"/>
 
         <div style="
         width: 200px;

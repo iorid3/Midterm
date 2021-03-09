@@ -1,4 +1,4 @@
-function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='0',y='0') {
+function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery') {
     return `
         <div style='
             display: flex;
@@ -8,23 +8,19 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
             width: 250px;
             height: 50px;
             margin: 10px;
-            position: absolute;
-            top: ${x}px;
-            left: ${y}px;
-
             animation-name: bouncing;
             animation-duration: 1.5s;
             animation-direction: alternate;
             animation-iteration-count: infinite;
             animation-delay: 2s;
-
-
         
         '
         >
             <div style='
+                display:flex; 
                 width: 50px;
                 height: 50px;
+                
             '>
                 <img style='
                     width: 100%;
@@ -40,6 +36,7 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
             padding-left: 5px; 
             '
             >${text}</div>
+        
         </div> 
     `
 }
