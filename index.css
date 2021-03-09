@@ -14,12 +14,14 @@ html{
 }
 
 .section1{
-  width:30%; 
-  height: 30%;
+  width: 100%; 
+  height: 100%;
   flex-direction: row;
+  display: flex;
   justify-content: center;
   align-items: center; 
   position: relative;
+  flex-direction: column;
 }
 
 #image {
@@ -217,7 +219,6 @@ html{
     margin-top: 100px;
     align-items: center;
     font-size: 2em;
-    /* position: relative; */
 }
 
 .footsteps-container {
@@ -225,9 +226,10 @@ html{
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     animation-name: footsteps;
-    top: 260rem;
+    top: -150px;
+    left: -100px;
 }
 
 @keyframes footsteps {
@@ -236,7 +238,7 @@ html{
 }
 
 .comp10 {
-    display: flex;  
+    display: flex;
 }
 
 .earthonsteps {
