@@ -1,12 +1,12 @@
-html,body{
+html{
     margin:0;
-    background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, rgba(227, 252, 195, 0.76) 100%);
+    background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, 
+        rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, 
+        rgba(227, 252, 195, 0.76) 100%);
     mix-blend-mode: normal;
 }
 #main{
-    margin: 200px;
-    width:100vw;
-    height:100vh;
+    width:100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -14,11 +14,24 @@ html,body{
 }
 
 .section1{
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width:30%; 
+  height: 30%;
+  flex-direction: row;
   justify-content: center;
+  align-items: center; 
+  position: relative;
+}
+
+#image {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.comp1, .comp2, .comp3 {
+    display: flex;
+    flex-basis: 50%;
 }
 
 /*claudia's work*/
@@ -39,8 +52,38 @@ html,body{
 .comp1_section2 {
     position:relative;
     top: 0;      /*need to re-size*/
+}
 
+.section3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20%;
+    margin:100px;
+}
 
+.container2{
+   display: flex;
+   flex-direction: row;
+}
+
+.icons{
+    width: 100%;
+    height: 100px;
+
+}
+
+.section4{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20%;
+    margin:100px;
 }
 
 .container1 {
@@ -50,9 +93,14 @@ html,body{
 
 }
 
+.container3{
+    margin:100px; 
+}
 
+.section5{
+    width:100%
 
-
+}
 
 .section3{
     width:100%;
@@ -64,6 +112,7 @@ html,body{
 
 
 .section5{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -79,7 +128,7 @@ html,body{
 
 .container6 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60%;
 }
 
@@ -99,5 +148,4 @@ html,body{
     display: flex;
     position: absolute;
     top: 50rem;
-
 }
