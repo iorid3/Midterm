@@ -1,5 +1,11 @@
 function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
     return `
+    <div style='
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    
+        '>
         <img style='
             width: 80px;
             height: 80px;
@@ -8,7 +14,8 @@ function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
+            position: relative;
+            
         '
         
         onmouseover='Comp9UI.HandleImageHover(this)'
@@ -38,7 +45,7 @@ function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
 
         >${text}</div>
 
-    `
+        </div>`
 }
 
 Comp9UI.HandleImageHover = (el) => {

@@ -233,12 +233,17 @@ html {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    max-width: 60%;
+    width: 40%;
 }
 
 .comp9 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .smallsteps {
@@ -253,12 +258,6 @@ html {
 .container7{
     display: flex;
     position: absolute;
-}
-
-.comp10 {
-    display: flex;
-    position: absolute;
-    top: 50rem;
 }
 
 .comp10 {
@@ -308,7 +307,6 @@ html {
 
 .comp5_arrowphone {
     position: relative;
-    transform: rotate(-90deg);
 }
 .start {
     font-size: 1.2em;
@@ -320,5 +318,6 @@ html {
 
 .ready {
     font-size: 1.5em;
+    
 }
 /* Maggie */
