@@ -1,12 +1,10 @@
-function Comp1UI(url="https://placekitten.com/300/300", size ="10px", font= "Arial", text="text"){
+function Comp1UI(url="Images/confusion.png", size ="10px", font= "Poppins", text="text"){
     return `<div style='
             width: 100vw;
             height: 30vh;
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            position: relative;
-            z-index: 0;
             transition: opacity 1s;
             opacity: 0.25;
         '
@@ -28,7 +26,7 @@ function Comp1UI(url="https://placekitten.com/300/300", size ="10px", font= "Ari
                 width: 500px;
                 left: 100px;
                 bottom: 10px;
-            'src="https://static.thenounproject.com/png/739210-200.png" />
+            'src="Images/chat.svg" />
 
             <div style='
                 display: inline-flex;
