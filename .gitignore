@@ -1,1 +1,4 @@
 Images/.DS_Store
+*.DS_Store*
+*.history*
+node_modules*
