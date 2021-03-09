@@ -1,8 +1,8 @@
 //section1 components
 document.querySelector(".comp1").innerHTML += Comp1UI("70px", "25px", "What's the issue?");
-document.querySelector(".section2_comp1").innerHTML += Comp1UI("60px", "25px", "What do people waste most?");
-document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "Images/professor.svg");
-document.querySelector(".comp2_section4").innerHTML += Comp2UI("15px", "22px", "Only 33% of participants plan their grocery shopping", "Images/pie_chart.svg");
+document.querySelector(".section2_comp1").innerHTML += Comp1UI("70px", "25px", "What do people waste most?");
+document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "200px", "Images/professor.svg");
+document.querySelector(".comp2_section4").innerHTML += Comp2UI("50px", "30px", "Only 33% of participants plan their grocery shopping", "400px", "Images/pie_chart.svg");
 
 //section2 components
 document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.png')
@@ -43,16 +43,12 @@ document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume y
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/3.svg", "Make foods that can be preserved longer such as jam, sauces, and pickled food");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/4.svg", "Be mindful of saving the environment by reducing food waste");
 
-// document.querySelector(".comp10").innerHTML += Comp10UI("40px", "120deg", "0px", "0px", "1s");
-// document.querySelector(".comp10").innerHTML += Comp10UI("55px", "80deg", "30px", "70px", "1.5s");
-// document.querySelector(".comp10").innerHTML += Comp10UI("75px", "70deg", "90px", "140px", "2s");
-// document.querySelector(".comp10").innerHTML += Comp10UI("90px", "80deg", "170px", "220px", "2.5s");
-// document.querySelector(".comp10").innerHTML += Comp10UI("100px", "120deg", "290px", "320px", "3s");
-// document.querySelector(".comp10").innerHTML += Comp10UI("110px", "150deg", "440px", "400px", "3.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("40px", "120deg", "10px", "-100px", "1s");
+document.querySelector(".comp10").innerHTML += Comp10UI("50px", "80deg", "20px", "20px", "1.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("65px", "80deg", "40px", "120px", "2s");
+document.querySelector(".comp10").innerHTML += Comp10UI("75px", "100deg", "50px", "250px", "2.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "320px", "3s");
+document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "180px", "300px", "3.5s");
 
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("40px", "120deg", "0px", "0px", "1s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("55px", "80deg", "30px", "70px", "1.5s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("75px", "50deg", "90px", "140px", "2s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("90px", "80deg", "170px", "220px", "2.5s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("100px", "120deg", "290px", "320px", "3s");
-document.querySelector(".footsteps-container").innerHTML += Comp10UI("110px", "150deg", "440px", "400px", "3.5s");
+document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
+document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
