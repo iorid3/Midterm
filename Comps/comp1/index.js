@@ -5,10 +5,10 @@ function Comp1UI(size ="10px", text="text"){
             height: 150px;
             display: inline-flex;
             justify-content: center;
-            align-items: center;
             transition: opacity 1s;
             opacity: 0.25;
             position: relative;
+            border: 2px solid black;
         '
         onclick='Comp1UI.HandleClick(this)'
         >
@@ -16,12 +16,10 @@ function Comp1UI(size ="10px", text="text"){
         <img style='
             display: inline-flex;
             width: 100%;
-            height:100%;
             object-fit: cover;
             position: relative;
-            left: 140px;
-            top: 60px;
-        'src="Images/confusion.png" />
+
+        'src="Images/question 2.svg" />
 
         <div style="
         width: 200px;
@@ -43,7 +41,6 @@ function Comp1UI(size ="10px", text="text"){
                 right: 265px;
                 font-size: ${size};
                 font-weight: bold;
-                font-family: "Poppins";
             '> ${text}</div>
         </div>
     </div>

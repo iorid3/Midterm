@@ -9,27 +9,39 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins';
 }
 
+/* Leighai's work */
 .section1{
-  width:30%; 
-  height: 30%;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
   position: relative;
 }
-
-#image {
-    width: 500px;
-    display: flex;
-    justify-content: center;
+#header1 {
+    flex-direction: center;
     align-items: center; 
 }
 
-.comp1, .comp2, .comp3 {
+#earth {
+    width: 300%;
+    overflow: hidden;
     display: flex;
-    flex-basis: 50%;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.comp1, .comp2  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+
 }
 
 /*claudia's work*/
