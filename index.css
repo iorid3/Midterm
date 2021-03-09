@@ -144,12 +144,10 @@ html{
 
 @keyframes bouncing {
     from{
-        transform: scale(0,0);
-        /* transform: rotate(0deg); */
+        transform: rotate(0deg);
     }
     to {
-        transform:scale(1,1);
-        /* transform:rotate(360deg); */
+        transform:rotate(360deg);
     }
 }
 

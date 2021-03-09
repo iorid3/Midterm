@@ -11,10 +11,10 @@ document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food t
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
 
 
-document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150)
-document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50)
-document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-140)
-document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,20)
+document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150, 2)
+document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50,2.5)
+document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-140,3)
+document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,20,3.5)
 
 document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/down-arrow.svg')
 
