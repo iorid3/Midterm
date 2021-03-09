@@ -1,4 +1,4 @@
-function Comp2UI(padding="70px", size ="10px", text="text", url="Images/professor.svg", ){
+function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="Images/professor.svg"){
     return `
         <div style='
             display: inline-flex;
@@ -27,7 +27,7 @@ function Comp2UI(padding="70px", size ="10px", text="text", url="Images/professo
         </div>
 
         <img style='
-            width: 200px;
+            width: ${width};
             object-fit: cover;
             margin: 10px;
         'src="${url}"/>
