@@ -12,27 +12,35 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* Leighai's work */
 .section1{
-  width:100%; 
-  height: 30%;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
   position: relative;
 }
-
-#image {
-    width: 500px;
-    display: flex;
-    justify-content: center;
+#header1 {
+    flex-direction: center;
     align-items: center; 
 }
 
-.comp1, .comp2, .comp3 {
+#earth {
+    width: 400%;
     display: flex;
-    flex-basis: 50%;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.comp1, .comp2  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
 }
 
 /*claudia's work*/
@@ -54,7 +62,6 @@ html{
 }
 .comp1_section2 {
     position:relative;
-    /* top: 0;      need to re-size */
     width: 60%;
     height: 200px;
 }
@@ -66,7 +73,8 @@ html{
     position:absolute;
     width: 200px;
     height: 200px;
-
+    top: -100px;
+    right: -110px;
     z-index: -1;
 
 }
@@ -125,7 +133,7 @@ html{
     }
 }
 
-
+/*section 2 styling end*/
 
 
 .section3{
@@ -171,10 +179,6 @@ html{
     margin:100px; 
 }
 
-.section5{
-    width:100%
-
-}
 
 .section3{
     width:100%;
@@ -184,26 +188,36 @@ html{
     width:100%;
 }
 
-
+/* Maggie */
 .section5{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .so {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.2em;
     font-weight: bold;
 }
 
 .howcan {
     font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container6 {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    margin-top: 50px;
+    max-width: 60%;
 }
 
 .comp9 {
@@ -214,6 +228,7 @@ html{
 .smallsteps {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     align-items: center;
     font-size: 2em;
 }
@@ -223,15 +238,40 @@ html{
     position: absolute;
     top: 50rem;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+.footsteps-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    animation-name: footsteps;
+    top: -150px;
+    left: -100px;
+}
+
+@keyframes footsteps {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+.comp10 {
+    display: flex;
+}
+
+.earthonsteps {
+    width: 250px;
+}
+
+.doyourpart {
+    font-size: 1.7em;
+}
+
+.usingapp {
+    font-size: 2.4em;
+}
+
+.brandname {
+    font-size: 3em;
+}
+
+/* Maggie */
