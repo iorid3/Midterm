@@ -17,7 +17,6 @@ function Comp3UI(Text='Average Canadian wastes 140kg of food in a year', url='ht
                 padding-right: 10px;
                 font-family: monospace;
 
-
             
             '
             >${Text}</div>
