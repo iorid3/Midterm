@@ -5,7 +5,7 @@ function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="
             justify-content: center;
             margin: 20px;
             transition: opacity 1s;
-            opacity: 0.20;
+            opacity: 0.15;
         '
         onclick='Comp1UI.HandleClick(this)'
         >
