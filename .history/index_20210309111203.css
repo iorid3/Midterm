@@ -13,26 +13,31 @@ html,body{
 }
 
 .section1{
-  width:100px;
+    width: 100%;
+    flex-grow:1;
 }
 
-
 .section2{
-    width:100px;
-   
+    width: 100%;
+    flex-grow:1;
 }
 
 .section3{
-    width:100px;
+    width: 100%;
+    flex-grow:1;
 }
 
 .section4{
-    width:100px;
+    width: 100%;
+    flex-grow:2;
 }
 
 
 .section5{
-    width:100px;
+    width: 100%;
+ 
+    flex-grow:2;
+}
 
 
 
