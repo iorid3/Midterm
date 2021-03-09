@@ -4,6 +4,7 @@ html,body{
     mix-blend-mode: normal;
 }
 #main{
+    margin: 200px;
     width:100vw;
     height:100vh;
     display:flex;
@@ -14,13 +15,44 @@ html,body{
 
 .section1{
   width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
+/*claudia's work*/
 .section2{
     width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section2 h2 {
+    text-decoration: underline;
+
    
 }
+.comp1_section2 {
+    position:relative;
+    top: 0;      /*need to re-size*/
+
+
+}
+
+.container1 {
+    position: relative;
+    right: 50px;  /*need to re-size*/
+
+
+}
+
+
+
+
 
 .section3{
     width:100%;
@@ -32,9 +64,6 @@ html,body{
 
 
 .section5{
-    width:100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
