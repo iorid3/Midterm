@@ -15,13 +15,13 @@ html {
 }
 
 .section1{
- display: flex;
- flex-direction: row;
-  width:30%; 
-  height: 30%;
+  width: 100%; 
+  height: 100%;
   flex-direction: row;
+  display: flex;
   justify-content: center;
   align-items: center; 
+  position: relative;
 }
 
 .comp1{
@@ -243,10 +243,6 @@ html {
     margin:100px; 
 }
 
-.section5{
-    width:100%
-
-}
 
 .section3{
     width:100%;
@@ -256,14 +252,18 @@ html {
     width:100%;
 }
 
-
+/* Maggie */
 .section5{
+    width: 100%;
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .so {
+    display: flex;
     font-size: 2.2em;
     font-weight: bold;
 }
@@ -275,7 +275,8 @@ html {
 .container6 {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    margin-top: 50px;
+    max-width: 60%;
 }
 
 .comp9 {
@@ -286,6 +287,7 @@ html {
 .smallsteps {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     align-items: center;
     font-size: 2em;
 }
@@ -303,3 +305,40 @@ html {
     position: relative;
     top: 50rem;
 }
+.footsteps-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    animation-name: footsteps;
+    top: -150px;
+    left: -100px;
+}
+
+@keyframes footsteps {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+.comp10 {
+    display: flex;
+}
+
+.earthonsteps {
+    width: 250px;
+}
+
+.doyourpart {
+    font-size: 1.7em;
+}
+
+.usingapp {
+    font-size: 2.4em;
+}
+
+.brandname {
+    font-size: 3em;
+}
+
+/* Maggie */
