@@ -1,5 +1,4 @@
-
-html{
+html {
     margin:0;
     background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, 
         rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, 
@@ -22,8 +21,7 @@ html{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; 
-
+  align-items: center;
 }
 
 #earth {
@@ -60,6 +58,9 @@ html{
 
 .comp1_section2 {
     position:relative;
+    /* top: 0;      need to re-size */
+    width: 60%;
+    height: 200px;
     height: 250px;
     margin: 10px 0 70px 0;
 }
@@ -112,7 +113,6 @@ html{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 /*animation effects on section 2*/
@@ -153,9 +153,6 @@ html{
     }
 }
 
-/*section 2 styling end*/
-
-
 .section3{
     display:flex;
     flex-direction: column;
@@ -191,8 +188,6 @@ html{
 .container1 {
     position: relative;
     right: 50px;  /*need to re-size*/
-
-
 }
 
 .container3{
@@ -212,10 +207,10 @@ html{
 .section5{
     width: 100%;
     display: flex;
-    flex-direction: column;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .so {
@@ -253,12 +248,19 @@ html{
     font-size: 2em;
 }
 
+
+.container7{
+    display: flex;
+    position: absolute;
+}
+
 .comp10 {
     display: flex;
     position: absolute;
     top: 50rem;
 }
-.footsteps-container {
+
+.comp10 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -267,6 +269,7 @@ html{
     animation-name: footsteps;
     top: -150px;
     left: -100px;
+    z-index: -1;
 }
 
 @keyframes footsteps {
@@ -274,16 +277,20 @@ html{
     to {opacity: 0%;}
 }
 
-.comp10 {
-    display: flex;
+.earthonsteps {
+    position: relative;
+    width: 400px;
+    top: -350px;
+    left: -40px;
 }
 
-.earthonsteps {
-    width: 250px;
+.comp5_arrowsteps {
+    position: relative;
 }
 
 .doyourpart {
     font-size: 1.7em;
+    margin-top: -50px;
 }
 
 .usingapp {
@@ -294,4 +301,23 @@ html{
     font-size: 3em;
 }
 
+.fridgephone {
+    width: 400px;
+}
+
+.comp5_arrowphone {
+    position: relative;
+    transform: rotate(-90deg);
+}
+.start {
+    font-size: 1.2em;
+}
+
+.recipes {
+    width: 160px;;
+}
+
+.ready {
+    font-size: 1.5em;
+}
 /* Maggie */
