@@ -1,5 +1,5 @@
-html {
-    width:100vw;
+
+html{
     margin:0;
     background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, 
         rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, 
@@ -17,6 +17,8 @@ html {
 
 /* Leighai's work */
 .section1{
+  width:100%;
+  height:20%;
   display: flex;
   width: 100%;
   height: 100%;
@@ -27,12 +29,9 @@ html {
   position: relative; 
   border: 2px solid black;
 }
-#header1 {
-    flex-direction: center;
-    align-items: center; 
-}
 
-#image {
+
+#earth {
     width: 400%;
     display: flex;
     justify-content: center;
@@ -91,7 +90,6 @@ html {
 
 .container1 {
     position:relative;
-
 }
 
 .comp5_section2 {
@@ -171,22 +169,8 @@ html {
     margin:100px;
 }
 
-.comp6{
-    animation:shake 1s infinite;
-    display:flex;
-    flex-direction: column;
-}
-
-@keyframes shake{
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
-}
-
 .container1 {
-    position: absolute;
+    position: relative;
     right: 50px;  /*need to re-size*/
 
 
@@ -250,17 +234,9 @@ html {
     font-size: 2em;
 }
 
-
-
-.container7{
-    display: flex;
-    position: absolute;
-
-}
-
 .comp10 {
     display: flex;
-    position: relative;
+    position: absolute;
     top: 50rem;
 }
 .footsteps-container {
