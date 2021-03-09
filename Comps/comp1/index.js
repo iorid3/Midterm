@@ -17,18 +17,16 @@ function Comp1UI(url="Images/confusion.png", size ="10px", text="text"){
             width: 255px;
             height: 253px;
             right: 0px;
-            top: 500px;
+            top: 300px;
             position:absolute;
         'src="${url}" />
 
         <div>
         <img style='
-            width: 300px;
            'src="Images/chat.svg"/>
 
         <div style='
             display: inline-flex;
-
             font-size: ${size};
         '> ${text}</div>
         </div>

@@ -13,17 +13,24 @@ html,body{
 }
 
 .section1{
-  width:200px; 
+  width:30%; 
+  height: 30%;
   flex-direction: row;
   justify-content: center;
   align-items: center; 
   position: relative;
 }
 
+#image {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .comp1, .comp2, .comp3 {
     display: flex;
     flex-basis: 50%;
-
 }
 
 
