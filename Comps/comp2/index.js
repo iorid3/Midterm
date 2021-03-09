@@ -1,7 +1,9 @@
-function Comp2UI(url="Images/confusion.png", size ="10px", font= "Poppins", text="text"){
-    return `<div style='
-        width: 100vw;
-        height: 30vh;
+function Comp2UI(size ="10px", text="text"){
+    return `
+    
+      <div style='
+        width: 150px;
+        height: 150px;
         display: inline-flex;
         justify-content: center;
         align-items: center;
@@ -12,34 +14,41 @@ function Comp2UI(url="Images/confusion.png", size ="10px", font= "Poppins", text
     onclick='Comp1UI.HandleClick(this)'
     >
     
-        // <img style='
-        //     display: inline-flex;
-        //     width: 200px;
-        //     position: relative;
-        //     left: 500px;
-        //     top:60px;
-        // ' src="${url}"/>
+        <img style='
+            display: inline-flex;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            left: 500px;
+            top:60px;
+        ' src="Images/professor.svg"/>
 
-        // <div>
-        //     <img style='
-        //         display: inline-flex;
-        //         position: relative;
-        //         width: 500px;
-        //         right: 200px;
-        //         bottom: 10px;
-        //         transform: rotateY(180deg)
-        //     ' src="Images/chat2.svg" />
+        <div style='
+        width: 200px;
+        height: 200px;
+        '>
+            <img style='
+                display: inline-flex;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                right: 200px;
+                bottom: 10px;
+                transform: rotateY(180deg)
+            ' src="Images/chat2.svg" />
 
-        //     <div style='
-        //         display: inline-flex;
-        //         position: relative;
-        //         bottom: 280px;
-        //         right: 560px;
-        //         font-size: ${size};
-        //         font-weight: bold;
-        //         font-family: ${font};
-        //     ' >${text}</div>
-        // </div>
+            <div style='
+                display: inline-flex;
+                position: relative;
+                bottom: 280px;
+                right: 560px;
+                font-size: ${size};
+                font-weight: bold;
+                font-family: 'Poppins';
+            ' >${text}</div>
+        </div>
     </div>`
 }
 

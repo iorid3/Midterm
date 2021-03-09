@@ -6,9 +6,9 @@ function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
             transition: width 0.2s;
             transition-timing-function: ease-in-out;
             display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         '
         
         onmouseover='Comp9UI.HandleImageHover(this)'

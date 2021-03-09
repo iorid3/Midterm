@@ -4,6 +4,7 @@ html,body{
     mix-blend-mode: normal;
 }
 #main{
+    margin: 200px;
     width:100vw;
     height:100vh;
     display:flex;
@@ -33,32 +34,118 @@ html,body{
     flex-basis: 50%;
 }
 
-
+/*claudia's work*/
 .section2{
-    width:100px;
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section2 h2 {
+    text-decoration: underline;
+
    
+}
+.comp1_section2 {
+    position:relative;
+    top: 0;      /*need to re-size*/
 }
 
 .section3{
-    width:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20%;
+    margin:100px;
+}
+
+.container2{
+   display: flex;
+   flex-direction: row;
+}
+
+.icons{
+    width: 100%;
+    height: 100px;
+
 }
 
 .section4{
-    width:100px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20%;
+    margin:100px;
+}
+
+.container1 {
+    position: relative;
+    right: 50px;  /*need to re-size*/
+
+
+}
+
+.container3{
+    margin:100px; 
+}
+
+.section5{
+    width:100%
+
+}
+
+.section3{
+    width:100%;
+}
+
+.section4{
+    width:100%;
 }
 
 
 .section5{
-    width:100px;
+    justify-content: center;
+    align-items: center;
+}
 
+.so {
+    font-size: 2.2em;
+    font-weight: bold;
+}
 
+.howcan {
+    font-size: 1.3em;
+}
 
+.container6 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
 
+.comp9 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.smallsteps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
 
+.comp10 {
+    display: flex;
+    position: absolute;
+    top: 50rem;
 
-
-
-
-
-
+}

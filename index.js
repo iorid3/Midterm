@@ -1,24 +1,28 @@
-document.querySelector(".comp1").innerHTML += Comp1UI("Images/question.svg","25px", "What's the issue?");
-document.querySelector(".comp1").innerHTML += Comp1UI("Images/pie_chart.svg","25px", "Only 33% of participants plan their grocery shopping");
-// document.querySelector(".comp2").innerHTML += Comp2UI("Images/professor.svg", "25px", "Good Question!");
+document.querySelector(".comp1").innerHTML += Comp1UI("25px", "What's the issue?");
+document.querySelector(".comp1").innerHTML += Comp1UI("25px", "Only 33% of participants plan their grocery shopping");
+document.querySelector(".comp2").innerHTML += Comp2UI("25px", "Good Question!");
 
-//add claudia's componenets
-
-document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.svg')
+//section2 components
+document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.png')
 document.querySelector(".comp3_2").innerHTML += Comp3UI('That’s worth about $1,100 Canadian dollars', 'Images/plant.svg')
 document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food that is thrown away could be eaten or used', 'Images/garbage.svg')
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
+document.querySelector(".comp1_section2").innerHTML +=Comp1UI("Images/question.svg","25px",'What do people waste  most?')
 
 document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,370)
 document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,570)
 document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,380)
 document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,545)
 
+
+
+
 document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'Images/down-arrow.svg')
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Waste food that ends up in the landfill produces methane gas",url= "Images/garbage.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text ="which 21x more potent than carbon dioxide. It may give serious damage to our society. ",url ="Images/skull.svg" );
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "From the time we harvest foods, to processing,to distribution,to decomposition", url ="Images/barn.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp();
+document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of the food system produces gas emissions and negatively impact the climate",url ="Images/temperature.svg");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers(59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables(55.6%)",color ="blue",width ="190px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
