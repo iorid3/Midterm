@@ -32,7 +32,7 @@ document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fruits.svg",text ="Made excessive food (37.3%)",color ="red",width ="150px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/soup.png",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume your leftover food first");
