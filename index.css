@@ -13,35 +13,62 @@ html,body{
 }
 
 .section1{
-  width:100px;
+  width:100%;
 }
 
 
 .section2{
-    width:100px;
+    width:100%;
    
 }
 
 .section3{
-    width:100px;
+    width:100%;
 }
 
 .section4{
-    width:100px;
+    width:100%;
 }
 
 
 .section5{
-    width:100px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.so {
+    font-size: 2.2em;
+    font-weight: bold;
+}
 
+.howcan {
+    font-size: 1.3em;
+}
 
+.container6 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
 
+.comp9 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.smallsteps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
 
+.comp10 {
+    display: flex;
+    position: absolute;
+    top: 50rem;
 
-
-
-
-
-
+}
