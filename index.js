@@ -1,6 +1,8 @@
+//section1 components
 document.querySelector(".comp1").innerHTML += Comp1UI("25px", "What's the issue?");
-document.querySelector(".comp1").innerHTML += Comp1UI("25px", "Only 33% of participants plan their grocery shopping");
-document.querySelector(".comp2").innerHTML += Comp2UI("25px", "Good Question!");
+document.querySelector(".comp1_section2").innerHTML += Comp1UI("25px", "Only 33% of participants plan their grocery shopping");
+document.querySelector(".comp2").innerHTML += Comp2UI("Images/professor.svg", "25px", "Good Question!");
+document.querySelector(".comp2_section4").innerHTML += Comp2UI("Images/pie_chart.svg", "25px", "Good Question!");
 
 //section2 components
 document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.png')
