@@ -1,10 +1,12 @@
-function Comp1UI(url="Images/chat.svg", size ="10px", text="text"){
+function Comp1UI(size ="10px", text="text"){
     return `
         <div style='
             width: 150px;
             height: 150px;
             display: inline-flex;
-            justify-content: center;
+            flex-direction: row;
+            wrap: row-wrap;
+            justify-content: ;
             transition: opacity 1s;
             opacity: 0.25;
             border: 2px solid black;
@@ -16,11 +18,13 @@ function Comp1UI(url="Images/chat.svg", size ="10px", text="text"){
             display: inline-flex;
             width: 100%;
             object-fit: cover;
-        'src= ${url} />
+        'src="Images/question.svg"/>
 
         <div style='
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border: 2px solid #00000;
             display: inline-flex;
         '>
 

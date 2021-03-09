@@ -1,4 +1,4 @@
-function Comp2UI(size ="10px", text="text"){
+function Comp2UI(url="Images/professor.svg", size ="10px", text="text"){
     return `
       <div style='
         width: 150px;
@@ -19,7 +19,7 @@ function Comp2UI(size ="10px", text="text"){
             object-fit: cover;
             left: 500px;
             top:60px;
-        ' src="Images/professor.svg"/>
+        ' src="${url}"/>
 
         <div style='
         width: 200px;
@@ -33,7 +33,7 @@ function Comp2UI(size ="10px", text="text"){
                 right: 200px;
                 bottom: 10px;
                 transform: rotateY(180deg)
-            ' src="Images/chat2.svg" />
+            ' src="Images/chat.svg" />
 
             <div style='
                 display: inline-flex;
