@@ -8,7 +8,7 @@ function Comp1UI(size ="10px", text="text"){
             align-items: center;
             transition: opacity 1s;
             opacity: 0.25;
-            position:absolute;
+            position: relative;
         '
         onclick='Comp1UI.HandleClick(this)'
         >

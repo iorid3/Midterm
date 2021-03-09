@@ -14,11 +14,24 @@ html,body{
 }
 
 .section1{
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width:30%; 
+  height: 30%;
+  flex-direction: row;
   justify-content: center;
+  align-items: center; 
+  position: relative;
+}
+
+#image {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.comp1, .comp2, .comp3 {
+    display: flex;
+    flex-basis: 50%;
 }
 
 /*claudia's work*/
@@ -99,6 +112,7 @@ html,body{
 
 
 .section5{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -114,7 +128,7 @@ html,body{
 
 .container6 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60%;
 }
 
@@ -134,5 +148,4 @@ html,body{
     display: flex;
     position: absolute;
     top: 50rem;
-
 }
