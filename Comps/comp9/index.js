@@ -1,10 +1,14 @@
-function Comp9UI(url="images/1.svg", text="4 Ways to Make it Better") {
+function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
     return `
         <img style='
             width: 80px;
             height: 80px;
             transition: width 0.2s;
             transition-timing-function: ease-in-out;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         '
         
         onmouseover='Comp9UI.HandleImageHover(this)'
@@ -60,4 +64,4 @@ Comp9UI.HandleHoverOut = (el) => {
     // el.style.height = "180px";
     // el.style.fontSize = "1.1em";
 }
-// export const Comp9 = Comp9UI();
+// export const comp9 = Comp9UI();

@@ -12,9 +12,9 @@ function Comp10UI(w="55px", tdeg="120deg", top="0px", left="0px", anidelay="1s")
         animation-delay: ${anidelay};
         animation-iteration-count: infinite;
     
-    'src="images/footsteps.svg"/>
+    'src="Images/footstep.png"/>
     
     `
 }
 
-// export const Comp10 = Comp10UI();
+// export const comp10 = Comp10UI();
