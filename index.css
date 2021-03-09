@@ -34,6 +34,7 @@ html,body{
 .section2 h2 {
     text-decoration: underline;
 
+   
 }
 .comp1_section2 {
     position:relative;
@@ -55,36 +56,48 @@ html,body{
 
 .section3{
     width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .section4{
     width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 
 .section5{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
+.so {
+    font-size: 2.2em;
+    font-weight: bold;
+}
 
+.howcan {
+    font-size: 1.3em;
+}
 
+.container6 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
 
+.comp9 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.smallsteps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
 
+.comp10 {
+    display: flex;
+    position: absolute;
+    top: 50rem;
 
-
-
-
-
+}
