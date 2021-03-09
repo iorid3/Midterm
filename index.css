@@ -5,6 +5,7 @@ html {
         rgba(227, 252, 195, 0.76) 100%);
     mix-blend-mode: normal;
 }
+
 #main{
     width:100%;
     display:flex;
@@ -21,14 +22,13 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 #earth {
     min-width: 600px;
     margin: -80px;
-  position: relative; 
-
+    position: relative; 
 }
 
 
@@ -62,7 +62,7 @@ html {
     width: 60%;
     height: 200px;
     height: 250px;
-    margin: 50px 0 30px 0;
+    margin: 10px 0 70px 0;
 }
 
 .common_food {
@@ -72,6 +72,7 @@ html {
     justify-content: center;
     align-items: center;
     position: relative;
+    padding: 0;
 }
 
 .flag_container {
@@ -92,8 +93,6 @@ html {
     object-fit: cover;
     opacity: 70%;
 }
-
-
 
 .comp5_section2 {
     position: relative;
