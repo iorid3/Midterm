@@ -21,7 +21,7 @@ function Comp1UI(size ="10px", text="text"){
             position: relative;
             left: 140px;
             top: 60px;
-        'src="Images/confusion.png" />
+        'src="Images/confusion.png"/>
 
         <div style="
         width: 200px;
