@@ -9,10 +9,10 @@ document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food t
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
 document.querySelector(".comp1_section2").innerHTML +=Comp1UI("Images/question.svg","25px",'What do people waste  most?')
 
-document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,370)
-document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,570)
-document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,380)
-document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,545)
+document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables')
+document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery')
+document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits')
+document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/soup.svg', 'Leftover')
 
 
 
@@ -26,8 +26,8 @@ document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of 
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers(59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables(55.6%)",color ="blue",width ="190px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fridge.svg",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/vegetable.svg",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fruits.svg",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");

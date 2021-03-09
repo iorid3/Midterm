@@ -1,10 +1,12 @@
 html {
+    width:100vw;
     margin:0;
     background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, rgba(227, 252, 195, 0.76) 100%);
     mix-blend-mode: normal;
 }
 #main{
     width: 100%;
+    margin:0px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -12,14 +14,73 @@ html {
 }
 
 .section1{
+ display: flex;
+ flex-direction: row;
   width:30%; 
   height: 30%;
   flex-direction: row;
   justify-content: center;
   align-items: center; 
-  position: relative;
 }
 
+.comp1{
+    position: absolute;
+}
+
+.container1{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.arrow_box{
+    position:relative;
+    width:300px;
+    height:70px;
+    background:#FFE6E6;
+    text-align:center;
+    border:5px solid #FFFFFF;
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    text-shadow:0px 0px 0px #FFFFFF ;
+}
+.arrow_box:after,.arrow_box:before{
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    top:100%;
+    left:22%;
+}
+.arrow_box:after{
+    border-color: rgba(255, 230, 230, 0);
+    border-top-width:14px;
+    border-bottom-width:14px;
+    border-left-width:13px;
+    border-right-width:13px;
+    margin-left: -13px;
+    border-top-color:#FFE6E6;
+}
+.arrow_box:before{
+    border-color: rgba(255, 255, 255, 0);
+    border-top-width:19px;
+    border-bottom-width:19px;
+    border-left-width:18px;
+    border-right-width:18px;
+    margin-left: -18px;
+    margin-top: 5px;
+    border-top-color:#FFFFFF;
+}
 #image {
     width: 500px;
     display: flex;
@@ -52,6 +113,10 @@ html {
     top: 0;      /*need to re-size*/
 }
 
+
+
+
+/* Iori add */
 .section3{
     display:flex;
     flex-direction: column;
@@ -84,8 +149,22 @@ html {
     margin:100px;
 }
 
+.comp6{
+    animation:shake 1s infinite;
+    display:flex;
+    flex-direction: column;
+}
+
+@keyframes shake{
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+
 .container1 {
-    position: relative;
+    position: absolute;
     right: 50px;  /*need to re-size*/
 
 
@@ -142,8 +221,16 @@ html {
     font-size: 2em;
 }
 
-.comp10 {
+
+
+.container7{
     display: flex;
     position: absolute;
+
+}
+
+.comp10 {
+    display: flex;
+    position: relative;
     top: 50rem;
 }
