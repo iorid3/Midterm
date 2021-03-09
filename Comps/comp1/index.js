@@ -4,46 +4,36 @@ function Comp1UI(size ="10px", text="text"){
             width: 150px;
             height: 150px;
             display: inline-flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: row;
+            wrap: row-wrap;
+            justify-content: ;
             transition: opacity 1s;
             opacity: 0.25;
-            position: relative;
+            border: 2px solid black;
         '
         onclick='Comp1UI.HandleClick(this)'
         >
 
         <img style='
-            display: inline-flex;
+            display: flex;
             width: 100%;
-            height:100%;
             object-fit: cover;
-            position: relative;
-            left: 140px;
-            top: 60px;
-        'src="Images/confusion.png" />
+        'src="Images/question.svg"/>
 
-        <div style="
-        width: 200px;
-        height: 200px;
-        display: inline-flex;
-
-        ">
-            <img style='
-                position: relative;
-                width: 100%;
-                left: 100px;
-                bottom: 10px;
-            'src="Images/chat.svg" />
+        <div style='
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border: 2px solid #00000;
+            display: inline-flex;
+        '>
 
             <div style='
                 display: inline-flex;
-                position: relative;
-                bottom: 280px;
-                right: 265px;
+                bottom: 200px;
+                right: 200px;
                 font-size: ${size};
                 font-weight: bold;
-                font-family: "Poppins";
             '> ${text}</div>
         </div>
     </div>
