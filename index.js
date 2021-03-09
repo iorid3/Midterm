@@ -1,14 +1,15 @@
 //section1 components
-document.querySelector(".comp1").innerHTML += Comp1UI("25px", "What's the issue?");
-document.querySelector(".comp2").innerHTML += Comp2UI("Images/professor.svg", "25px", "Good Question!");
-document.querySelector(".comp2_section4").innerHTML += Comp2UI("Images/pie_chart.svg", "25px", "Good Question!");
+document.querySelector(".comp1").innerHTML += Comp1UI("70px", "25px", "What's the issue?");
+document.querySelector(".section2_comp1").innerHTML += Comp1UI("60px", "25px", "What do people waste most?");
+document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "Images/professor.svg");
+document.querySelector(".comp2_section4").innerHTML += Comp2UI("15px", "22px", "Only 33% of participants plan their grocery shopping", "Images/pie_chart.svg");
 
 //section2 components
 document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.png')
 document.querySelector(".comp3_2").innerHTML += Comp3UI('That’s worth about $1,100 Canadian dollars', 'Images/plant.svg')
 document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food that is thrown away could be eaten or used', 'Images/garbage.svg')
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
-document.querySelector(".section2_comp1").innerHTML +=Comp1UI("25px",'What do people waste most?')
+
 
 document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150)
 document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50)

@@ -1,36 +1,37 @@
-function Comp1UI(size ="10px", text="text"){
+function Comp1UI(padding="70px", size ="10px", text="text"){
     return `
         <div style='
-            width: 150px;
-            height: 150px;
             display: inline-flex;
-            flex-direction: row;
-            wrap: row-wrap;
-            justify-content: ;
+            justify-content: center;
+            margin: 20px;
             transition: opacity 1s;
+<<<<<<< HEAD
+            opacity: 0.20;
+=======
             opacity: 0.25;
+>>>>>>> 424de52dcfa48d7530f31f4bbe133b5ee01d3ff1
         '
         onclick='Comp1UI.HandleClick(this)'
         >
 
         <img style='
-            display: flex;
-            width: 100%;
+            width: 200px;
             object-fit: cover;
+            margin: 10px;
         'src="Images/question.svg"/>
 
         <div style='
             width: 300px;
-            height: 300px;
             background-color: white;
             border: 2px solid #00000;
-            display: inline-flex;
+            border-radius: 50px;
+            padding-top:${padding};
+            text-align: center;
+            border: 2px solid black;
+            margin: 10px;
         '>
 
             <div style='
-                display: inline-flex;
-                bottom: 200px;
-                right: 200px;
                 font-size: ${size};
                 font-weight: bold;
             '> ${text}</div>

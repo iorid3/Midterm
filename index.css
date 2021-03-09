@@ -21,29 +21,29 @@ html{
   height:20%;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 80%;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
-  position: relative; 
-  border: 2px solid black;
-}
 
+}
 
 #earth {
-    width: 400%;
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 10px; */
+    min-width: 600px;
+    margin: -80px;
+  position: relative; 
+
 }
 
-.comp1, .comp2  {
+
+.comp1, .section2_comp1, .comp2, .comp2_section4 {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
-    align-items: center; 
 }
+
 
 /*claudia's work*/
 .section2{
@@ -60,6 +60,7 @@ html{
 .section2 h2 {
     text-decoration: underline; 
 }
+
 .comp1_section2 {
     position:relative;
     height: 250px;
