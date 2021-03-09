@@ -11,7 +11,6 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
             position: absolute;
             top: ${x}px;
             left: ${y}px;
-
             animation-name: bouncing;
             animation-duration: 1.5s;
             animation-direction: alternate;
@@ -39,7 +38,6 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
          >${text}</div>
     `
 }
-
 
 
 
