@@ -1,4 +1,5 @@
-html{
+html {
+    width:100vw;
     margin:0;
     background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, 
         rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, 
@@ -64,7 +65,6 @@ html{
 }
 .comp1_section2 {
     position:relative;
-    /* top: 0;      need to re-size */
     width: 60%;
     height: 200px;
 }
@@ -76,7 +76,8 @@ html{
     position:absolute;
     width: 200px;
     height: 200px;
-
+    top: -100px;
+    right: -110px;
     z-index: -1;
 
 }
@@ -135,7 +136,7 @@ html{
     }
 }
 
-
+/*section 2 styling end*/
 
 
 .section3{
@@ -170,8 +171,22 @@ html{
     margin:100px;
 }
 
+.comp6{
+    animation:shake 1s infinite;
+    display:flex;
+    flex-direction: column;
+}
+
+@keyframes shake{
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+
 .container1 {
-    position: relative;
+    position: absolute;
     right: 50px;  /*need to re-size*/
 
 
@@ -181,10 +196,6 @@ html{
     margin:100px; 
 }
 
-.section5{
-    width:100%
-
-}
 
 .section3{
     width:100%;
@@ -194,26 +205,36 @@ html{
     width:100%;
 }
 
-
+/* Maggie */
 .section5{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .so {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.2em;
     font-weight: bold;
 }
 
 .howcan {
     font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container6 {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    margin-top: 50px;
+    max-width: 60%;
 }
 
 .comp9 {
@@ -224,12 +245,58 @@ html{
 .smallsteps {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     align-items: center;
     font-size: 2em;
 }
 
-.comp10 {
+
+
+.container7{
     display: flex;
     position: absolute;
+
+}
+
+.comp10 {
+    display: flex;
+    position: relative;
     top: 50rem;
 }
+.footsteps-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    animation-name: footsteps;
+    top: -150px;
+    left: -100px;
+}
+
+@keyframes footsteps {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+.comp10 {
+    display: flex;
+}
+
+.earthonsteps {
+    width: 250px;
+}
+
+.doyourpart {
+    font-size: 1.7em;
+}
+
+.usingapp {
+    font-size: 2.4em;
+}
+
+.brandname {
+    font-size: 3em;
+}
+
+/* Maggie */
