@@ -13,7 +13,17 @@ html,body{
 }
 
 .section1{
-  width:100px;
+  width:200px; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+}
+
+.comp1, .comp2, .comp3 {
+    display: flex;
+    flex-basis: 50%;
+
 }
 
 
