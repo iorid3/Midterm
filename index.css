@@ -29,7 +29,6 @@ html {
 
 #image {
     min-width: 600px;
-    /* overflow-y: hidden; */
     margin: -80px;
 }
 
