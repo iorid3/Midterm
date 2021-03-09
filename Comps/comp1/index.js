@@ -1,4 +1,4 @@
-function Comp1UI(size ="10px", text="text"){
+function Comp1UI(url="Images/chat.svg", size ="10px", text="text"){
     return `
         <div style='
             width: 150px;
@@ -7,7 +7,6 @@ function Comp1UI(size ="10px", text="text"){
             justify-content: center;
             transition: opacity 1s;
             opacity: 0.25;
-            position: relative;
             border: 2px solid black;
         '
         onclick='Comp1UI.HandleClick(this)'
@@ -17,28 +16,18 @@ function Comp1UI(size ="10px", text="text"){
             display: inline-flex;
             width: 100%;
             object-fit: cover;
-            position: relative;
+        'src= ${url} />
 
-        'src="Images/question 2.svg" />
-
-        <div style="
-        width: 200px;
-        height: 200px;
-        display: inline-flex;
-
-        ">
-            <img style='
-                position: relative;
-                width: 100%;
-                left: 100px;
-                bottom: 10px;
-            'src="Images/chat.svg" />
+        <div style='
+            width: 200px;
+            height: 200px;
+            display: inline-flex;
+        '>
 
             <div style='
                 display: inline-flex;
-                position: relative;
-                bottom: 280px;
-                right: 265px;
+                bottom: 200px;
+                right: 200px;
                 font-size: ${size};
                 font-weight: bold;
             '> ${text}</div>

@@ -27,8 +27,7 @@ html {
 }
 
 #earth {
-    width: 300%;
-    overflow: hidden;
+    width: 400%;
     display: flex;
     justify-content: center;
     /* margin-bottom: 10px; */
@@ -37,11 +36,8 @@ html {
 .comp1, .comp2  {
     display: flex;
     width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-
 }
 
 /*claudia's work*/
