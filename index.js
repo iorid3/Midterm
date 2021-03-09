@@ -1,6 +1,6 @@
 //section1 components
 document.querySelector(".comp1").innerHTML += Comp1UI("70px", "25px", "What's the issue?");
-document.querySelector(".comp1_section2").innerHTML += Comp1UI("60px", "25px", "What do people waste most?");
+document.querySelector(".section2_comp1").innerHTML += Comp1UI("60px", "25px", "What do people waste most?");
 document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "Images/professor.svg");
 document.querySelector(".comp2_section4").innerHTML += Comp2UI("15px", "22px", "Only 33% of participants plan their grocery shopping", "Images/pie_chart.svg");
 
@@ -9,11 +9,11 @@ document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes
 document.querySelector(".comp3_2").innerHTML += Comp3UI('That’s worth about $1,100 Canadian dollars', 'Images/plant.svg')
 document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food that is thrown away could be eaten or used', 'Images/garbage.svg')
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
-// document.querySelector(".comp1_section2").innerHTML +=Comp1UI("25px",'What do people waste most?')
+
 
 document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150)
 document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50)
-document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-150)
+document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-140)
 document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,20)
 
 document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/down-arrow.svg')
@@ -21,6 +21,10 @@ document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/d
 
 
 // document.querySelector(".comp5").innerHTML += Comp5UI(50,500,'Images/down-arrow.svg')
+
+//this one is belong to section 4 
+// document.querySelector(".comp1_section2").innerHTML += Comp1UI("25px", "Only 33% of participants plan their grocery shopping");
+
 
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Waste food that ends up in the landfill produces methane gas",url= "Images/garbage.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text ="which 21x more potent than carbon dioxide. It may give serious damage to our society. ",url ="Images/skull.svg" );

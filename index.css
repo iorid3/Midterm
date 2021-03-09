@@ -1,5 +1,5 @@
-html {
-    width:100vw;
+
+html{
     margin:0;
     background: linear-gradient(180deg, rgba(156, 233, 235, 0.86) 0%, 
         rgba(255, 217, 86, 0.96) 26.56%, rgba(255, 220, 220, 0.6) 63.02%, 
@@ -17,6 +17,8 @@ html {
 
 /* Leighai's work */
 .section1{
+  width:100%;
+  height:20%;
   display: flex;
   width: 100%;
   height: 80%;
@@ -27,12 +29,15 @@ html {
 
 }
 
-#image {
+#earth {
     min-width: 600px;
     margin: -80px;
+  position: relative; 
+
 }
 
-.comp1, .comp1_section2, .comp2, .comp2_section4 {
+
+.comp1, .section2_comp1, .comp2, .comp2_section4 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -44,24 +49,32 @@ html {
 .section2{
     width:100%;
     height: 30%;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 350px;
 
 }
 .section2 h2 {
-    text-decoration: underline;
-
-   
+    text-decoration: underline; 
 }
-/* .comp1_section2 {
+
+.comp1_section2 {
     position:relative;
-    width: 60%;
-    height: 200px;
-} */
+    height: 250px;
+    margin: 50px 0 30px 0;
+}
+
+.common_food {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
 .flag_container {
     position:relative;
@@ -70,7 +83,7 @@ html {
     position:absolute;
     width: 200px;
     height: 200px;
-    top: -100px;
+    top: -90px;
     right: -110px;
     z-index: -1;
 
@@ -82,14 +95,32 @@ html {
     opacity: 70%;
 }
 
-
 .container1 {
-    position:relative;
+    position:absolute;
+    left: 170px;
 
 }
 
 .comp5_section2 {
     position: relative;
+}
+.organic_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 400px;
+}
+.organic {
+    width: 300px;
+    height: 300px;
+}
+.organic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 /*animation effects on section 2*/
@@ -165,22 +196,8 @@ html {
     margin:100px;
 }
 
-.comp6{
-    animation:shake 1s infinite;
-    display:flex;
-    flex-direction: column;
-}
-
-@keyframes shake{
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
-}
-
 .container1 {
-    position: absolute;
+    position: relative;
     right: 50px;  /*need to re-size*/
 
 
@@ -244,17 +261,9 @@ html {
     font-size: 2em;
 }
 
-
-
-.container7{
-    display: flex;
-    position: absolute;
-
-}
-
 .comp10 {
     display: flex;
-    position: relative;
+    position: absolute;
     top: 50rem;
 }
 .footsteps-container {
