@@ -5,6 +5,7 @@ html {
         rgba(227, 252, 195, 0.76) 100%);
     mix-blend-mode: normal;
 }
+
 #main{
     width:100%;
     display:flex;
