@@ -31,7 +31,7 @@ html{
 }
 
 
-#image {
+#earth {
     width: 400%;
     display: flex;
     justify-content: center;
@@ -90,7 +90,6 @@ html{
 
 .container1 {
     position:relative;
-
 }
 
 .comp5_section2 {
