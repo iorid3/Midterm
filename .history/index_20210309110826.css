@@ -13,26 +13,15 @@ html,body{
 }
 
 .section1{
-  width:100px
-}
+    width: 100%;
+    height:20%
 
+}
 
 .section2{
-    width:100px
-   
-}
+    width: 100%;
+    height:20%
 
-.section3{
-    width:100px
-}
-
-.section4{
-    width:100px
-}
-
-
-.section5{
-    width:100px
 }
 
 
