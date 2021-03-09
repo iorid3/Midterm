@@ -4,7 +4,7 @@ html {
     mix-blend-mode: normal;
 }
 #main{
-    width:100%;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -110,6 +110,7 @@ html {
 
 
 .section5{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -125,7 +126,7 @@ html {
 
 .container6 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60%;
 }
 
@@ -145,5 +146,4 @@ html {
     display: flex;
     position: absolute;
     top: 50rem;
-
 }
