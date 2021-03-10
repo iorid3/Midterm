@@ -29,7 +29,6 @@ html {
     min-width: 600px;
     margin: -80px;
     position: relative;
-
     animation: tilt 4.5s infinite;
     animation-timing-function: ease-in-out;
 }
@@ -50,6 +49,10 @@ html {
     width: 100%;
 }
 
+.section1 h1{
+margin-top: 100px;
+font-size: 50px;
+}
 
 
 /*claudia's work*/
@@ -65,7 +68,8 @@ html {
     
 }
 .section2 h2 {
-    text-decoration: underline; 
+    text-decoration: underline;
+    font-size: 40px; 
 }
 .comp3 {
     display: flex;
@@ -135,12 +139,17 @@ html {
 .organic {
     width: 300px;
     height: 300px;
+    margin-top: 100px;;
 }
 
 .organic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.organic_container h3{
+    font-size: 25px;
 }
 
 /*animation effects on section 2*/
@@ -264,23 +273,25 @@ html {
 
 
 .container3{
-    width:100%;
+    width:60%;
     margin:100px; 
     display:flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 60px;
-  
+    font-size: 40px;
 }
 
 .container3 img{
-    width: 80%;
-    height:80%;
+    align-items:center;
+    justify-content: center;
+    width: 70%;
+    height:70%;
+    transform:rotate(-15deg);
+    
 }
 .container h3{
-    font-size: 100px; 
-    width: 150px;
-    transform:rotate(-15deg);
+    font-size:70px; 
+    width: 70px;
 }
 
 .comp6{
@@ -333,7 +344,7 @@ html {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    width: 50%;
+    width: 40%;
 }
 
 .comp9 {
