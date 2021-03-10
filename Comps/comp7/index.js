@@ -17,13 +17,13 @@ function Graphcomp(url ="images/vegetable.svg",text ="Leftovers(59.3%)",color ="
                             height:30px;
                             margin-top:10px;
                             background-color:${color};
-                            box-shadow: 3px 3px ;
+                            box-shadow: 2px 2px ;
                             transition:box-shadow, 1s;"
                             onmouseover = "Graphcomp.HandleMouseover(this)">
                             <div style ="
                             display:flex;
-                            padding:10px;
-                            font-size:25px;"><p>${text}</p></div> 
+                            padding:20px;
+                            font-size:18px;"><p>${text}</p></div> 
                             </div>
                             
 

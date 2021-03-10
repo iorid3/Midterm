@@ -15,6 +15,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Leighai's work */
 .section1{
   width:100%;
@@ -24,6 +28,12 @@ html {
   justify-content: center;
   align-items: center; 
 }
+
+
+.section1 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    }
 
 #earth {
     min-width: 600px;
@@ -49,10 +59,7 @@ html {
     width: 100%;
 }
 
-.section1 h1{
-margin-top: 100px;
-font-size: 50px;
-}
+
 
 
 /*claudia's work*/
@@ -68,8 +75,11 @@ font-size: 50px;
     
 }
 .section2 h2 {
-    text-decoration: underline;
     font-size: 40px; 
+}
+
+.secondtitle{
+    text-decoration: underline;
 }
 .comp3 {
     display: flex;
@@ -96,19 +106,21 @@ font-size: 50px;
     align-items: center;
     position: relative;
     padding: 0;
+    margin:100px;
 }
 
 .flag_container {
     position:relative;
     margin-top: 60px;
+    
 }
 
 .flag {
     position:absolute;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 350px;
     top: -90px;
-    right: -110px;
+    right: -220px;
     z-index: -1;
     
 }
@@ -135,6 +147,7 @@ font-size: 50px;
     justify-content: center;
     position: relative;
     top: 400px;
+    max-width:80%;
 }
 
 .organic {
@@ -149,9 +162,6 @@ font-size: 50px;
     object-fit: cover;
 }
 
-.organic_container h3{
-    font-size: 25px;
-}
 
 /*animation effects on section 2*/
 .comp3_1, .comp3_2, .comp3_3, .comp3_4 {
@@ -221,13 +231,24 @@ font-size: 50px;
  width:100%;
  height:40%;
  margin-top:40px;
+ max-width: 80%;
 
+}
+
+.section3 h2{
+    font-size: 40px; 
 }
 
 .food_wastecontainer img{
     width:100px;
     height:100px;
 }
+
+.carboncontainer{
+    display:flex;
+    flex-direction: column;
+    max-width:500px;
+}   
 
 .comp6{
     display:flex;  
@@ -268,9 +289,9 @@ font-size: 50px;
 
 
 
-.section4 h4{
-    font-size: 22px;
-    text-decoration: underline;
+.section4 h2{
+    font-size: 40px;
+    /* text-decoration: underline; */
 }
 
 
@@ -278,7 +299,8 @@ font-size: 50px;
     width:60%;
     margin:100px; 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     font-size: 40px;
 }
@@ -288,27 +310,45 @@ font-size: 50px;
     justify-content: center;
     width: 70%;
     height:70%;
-    transform:rotate(-15deg);
     
 }
-.container h3{
-    font-size:70px; 
-    width: 70px;
+.container3 h3{
+    font-size:40px; 
+    width:100%;
 }
 
 .comp6{
-    animation:shake 1s infinite;
     display:flex;
     flex-direction: column;
 }
 
+.surveycontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-@keyframes shake{
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+
+.container4{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.comp7{
+    display:flex; 
+    flex-direction:column;
+
+}
+
+.container5{
+    display:flex;
+}
+
+.comp8{
+    display:flex; 
+    flex-direction:column;
 }
 
 
@@ -410,7 +450,8 @@ font-size: 50px;
 
 .brandname {
     margin-bottom:100px;
-    font-size: 3em;
+    font-size: 80px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -422,6 +463,7 @@ font-size: 50px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 .comp5_arrowphone {
     position: relative;
@@ -443,7 +485,7 @@ font-size: 50px;
 }
 
 .start {
-    font-size: 1.2em;
+    font-size: 2.2em;
     margin-bottom: 100px;
 }
 .recipes {
@@ -462,7 +504,9 @@ font-size: 50px;
     object-fit: cover;
     
 }
-.ready {
+.ready{
     font-size: 1.5em;
     margin-bottom: 100px;
+    max-width:500px;
+    text-align: center;
 }
