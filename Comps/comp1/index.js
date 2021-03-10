@@ -14,7 +14,7 @@ function Comp1UI(padding="70px", size ="10px", text="text"){
             width: 200px;
             object-fit: cover;
             margin: 10px;
-        'src="Images/question.svg"/>
+        'src="Images/problem.png"/>
 
         <div style='
             width: 300px;

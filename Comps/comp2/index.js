@@ -1,4 +1,4 @@
-function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="Images/professor.svg"){
+function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="Images/headmaster.png"){
     return `
         <div style='
             display: inline-flex;
