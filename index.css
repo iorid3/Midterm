@@ -407,15 +407,15 @@ font-size: 50px;
 }
 
 .brandname {
+    margin-bottom:100px;
     font-size: 3em;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 
-.fridgephone {
-    width: 450px;
-    margin-bottom: -80px;
+.fridge {
+    width:300px;
+    height:500px;
 }
-
 .comp5_arrowphone {
     position: relative;
 }
