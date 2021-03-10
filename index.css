@@ -182,6 +182,12 @@ html {
     }
 }
 
+
+.container1 {
+    position: relative;
+    right: 50px;  /*need to re-size*/
+}
+
 /*section 2 styling end*/
 
 /* Iori's work */
@@ -192,20 +198,47 @@ html {
     justify-content: center;
     align-items: center;
     width:100%;
-    height:20%;
+    height:30%;
     margin:10px;
 }
 
+.food_wastecontainer{
+ display:flex ;
+ flex-direction: row;
+ align-items: center;
+ justify-content:center;
+ width:100%;
+ height:40%;
+ margin-top:40px;
+
+}
+
+.food_wastecontainer img{
+    width:100px;
+    height:100px;
+}
 
 .comp6{
     display:flex;  
 }
 
 .container2{
+   width:100%;
+   height: 100%;
    display: flex;
    flex-direction: row;
-   margin-top: 50px;
+  align-items: center;
+   justify-content: center;
+
+   margin-top: 50px
 }
+
+
+.container2 img{
+    width:200px;
+    height:150px;
+} 
+
 
 .icons{
     width: 100%;
@@ -213,20 +246,24 @@ html {
     object-fit: fill;
 }
 
-.section4{
-    
+.section4{ 
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width:100%;
     height:20%;
+    margin:20px;
 }
+
+
+
 
 .section4 h4{
     font-size: 22px;
     text-decoration: underline;
 }
+
 
 
 .container3{
@@ -235,10 +272,16 @@ html {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 60px;
   
 }
 
 .container3 img{
+    width: 80%;
+    height:80%;
+}
+.container h3{
+    font-size: 100px; 
     width: 150px;
     transform:rotate(-15deg);
 }
@@ -385,3 +428,8 @@ html {
     margin-bottom: 100px;
 }
 /* Maggie */
+
+
+
+
+
