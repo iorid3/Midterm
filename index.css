@@ -29,10 +29,6 @@ html {
     min-width: 600px;
     margin: -80px;
     position: relative; 
-<<<<<<< HEAD
-
-=======
->>>>>>> 60188b93e0d1f893c8e4f29d4e3abaa7f980eb58
 }
 .comp1, .section2_comp1, .comp2, .comp2_section4 {
     display: flex;
@@ -154,12 +150,10 @@ html {
     }
 }
 
-<<<<<<< HEAD
 /*section 2 styling end*/
 
 /* Iori's work */
-=======
->>>>>>> 60188b93e0d1f893c8e4f29d4e3abaa7f980eb58
+
 .section3{
     display:flex;
     flex-direction: column;
@@ -168,6 +162,11 @@ html {
     width:100%;
     height:20%;
     margin:10px;
+}
+
+
+.comp6{
+    display:flex;  
 }
 
 .container2{
@@ -189,16 +188,12 @@ html {
     align-items: center;
     width:100%;
     height:20%;
-<<<<<<< HEAD
-    margin:10px;
-=======
     margin:100px;
 }
 
 .container1 {
     position: relative;
     right: 50px;  /*need to re-size*/
->>>>>>> 60188b93e0d1f893c8e4f29d4e3abaa7f980eb58
 }
 
 .container3{
@@ -207,6 +202,7 @@ html {
     display:flex;
     flex-direction: row;
     justify-content: center;
+  
 }
 
 .container3 img{
