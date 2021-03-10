@@ -26,7 +26,7 @@ document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/d
 // document.querySelector(".comp1_section2").innerHTML += Comp1UI("25px", "Only 33% of participants plan their grocery shopping");
 
 
-document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Waste food that ends up in the landfill produces methane gas",url= "Images/garbage.svg");
+document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Waste food that ends up i2 the landfill produces methane gas",url= "Images/garbage.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text ="which 21x more potent than carbon dioxide. It may give serious damage to our society. ",url ="Images/skull.svg" );
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "From the time we harvest foods, to processing,to distribution,to decomposition", url ="Images/barn.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp();
@@ -34,7 +34,7 @@ document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of 
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers(59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables(55.6%)",color ="blue",width ="190px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about their food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/soup.png",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
@@ -47,12 +47,9 @@ document.querySelector(".comp10").innerHTML += Comp10UI("40px", "120deg", "10px"
 document.querySelector(".comp10").innerHTML += Comp10UI("50px", "80deg", "20px", "20px", "1.5s");
 document.querySelector(".comp10").innerHTML += Comp10UI("65px", "80deg", "40px", "120px", "2s");
 document.querySelector(".comp10").innerHTML += Comp10UI("75px", "100deg", "50px", "250px", "2.5s");
-document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "320px", "3s");
-document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "180px", "300px", "3.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "350px", "3s");
+document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "170px", "320px", "3.5s");
 
 document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
 document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
-
-function opacity (){
-    document.getElementsByClassName("canada").style.opacity = "100%"
-}
+document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-300, -300, 'Images/right-arrow.png')
