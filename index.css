@@ -28,14 +28,29 @@ html {
 #earth {
     min-width: 600px;
     margin: -80px;
-    position: relative; 
+    position: relative;
+
+    animation: tilt 4.5s infinite;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes tilt {
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(10deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+
+}
+
 .comp1, .section2_comp1, .comp2, .comp2_section4 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
 }
+
+
 
 /*claudia's work*/
 .section2{
@@ -46,12 +61,19 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 350px;
-
+    margin-bottom: 500px;
+    
 }
 .section2 h2 {
     text-decoration: underline; 
 }
+.comp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .comp1_section2 {
     position:relative;
@@ -75,6 +97,7 @@ html {
 .flag_container {
     position:relative;
 }
+
 .flag {
     position:absolute;
     width: 200px;
@@ -82,18 +105,24 @@ html {
     top: -90px;
     right: -110px;
     z-index: -1;
-
+    
 }
 .flag img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 70%;
+    opacity: 80%;
+}
+
+.container1 {
+    position: relative;
+    right: 50px;  /*need to re-size*/
 }
 
 .comp5_section2 {
     position: relative;
 }
+
 .organic_container {
     display: flex;
     flex-direction: column;
@@ -102,10 +131,12 @@ html {
     position: relative;
     top: 400px;
 }
+
 .organic {
     width: 300px;
     height: 300px;
 }
+
 .organic img {
     width: 100%;
     height: 100%;
@@ -115,17 +146,20 @@ html {
 /*animation effects on section 2*/
 .comp3_1, .comp3_2, .comp3_3, .comp3_4 {
     padding: 10px;
-
 }
+
 .comp3_1:hover {
     transform: scale(1.5);
 }
+
 .comp3_2:hover {
     transform: scale(1.5);
 }
+
 .comp3_3:hover {
     transform: scale(1.5);
 }
+
 .comp3_4:hover {
     transform: scale(1.5);
 }
@@ -142,11 +176,9 @@ html {
 @keyframes bouncing {
     from{
         transform: scale(0,0);
-        /* transform: rotate(0deg); */
     }
     to {
-        transform:scale(1,1);
-        /* transform:rotate(360deg); */
+        transform: scale(1,1);
     }
 }
 
@@ -195,8 +227,10 @@ html {
    height: 100%;
    display: flex;
    flex-direction: row;
-   align-items: center;
+  align-items: center;
    justify-content: center;
+
+   margin-top: 50px
 }
 
 
@@ -212,8 +246,7 @@ html {
     object-fit: fill;
 }
 
-.section4{
-    
+.section4{ 
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -222,6 +255,15 @@ html {
     height:20%;
     margin:20px;
 }
+
+
+
+
+.section4 h4{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
 
 
 .container3{
@@ -238,9 +280,10 @@ html {
     width: 80%;
     height:80%;
 }
-
 .container h3{
     font-size: 100px; 
+    width: 150px;
+    transform:rotate(-15deg);
 }
 
 .comp6{
@@ -265,7 +308,7 @@ html {
 .section5{
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -275,27 +318,34 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.2em;
+    font-size: 2.3em;
     font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 150px;
 }
 
 .howcan {
-    font-size: 1.3em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -20px;
 }
 
 .container6 {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    max-width: 60%;
+    width: 50%;
 }
 
 .comp9 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .smallsteps {
@@ -306,16 +356,9 @@ html {
     font-size: 2em;
 }
 
-
 .container7{
     display: flex;
     position: absolute;
-}
-
-.comp10 {
-    display: flex;
-    position: absolute;
-    top: 50rem;
 }
 
 .comp10 {
@@ -347,36 +390,42 @@ html {
 }
 
 .doyourpart {
-    font-size: 1.7em;
+    font-size: 1.3em;
     margin-top: -50px;
 }
 
 .usingapp {
-    font-size: 2.4em;
+    font-size: 1.6em;
 }
 
 .brandname {
     font-size: 3em;
+    margin-bottom: -20px;
 }
 
 .fridgephone {
-    width: 400px;
+    width: 450px;
+    margin-bottom: -80px;
 }
 
 .comp5_arrowphone {
     position: relative;
-    transform: rotate(-90deg);
 }
+
 .start {
     font-size: 1.2em;
+    margin-bottom: 100px;
 }
 
 .recipes {
-    width: 160px;;
+    width: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .ready {
     font-size: 1.5em;
+    margin-bottom: 100px;
 }
 /* Maggie */
 
