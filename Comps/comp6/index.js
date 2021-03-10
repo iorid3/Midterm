@@ -11,7 +11,8 @@ function Carboncomp(text =" 7% of greenhouse gases produced globally are due to 
                          <div style ="
                          display:flex;
                          padding:10px;
-                         font-size:18px;"><p>${text}</p></div> 
+                         font-size:20px;
+                         "><p>${text}</p></div> 
 
             </div>`
 
