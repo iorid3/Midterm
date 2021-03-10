@@ -25,6 +25,12 @@ html {
   align-items: center; 
 }
 
+
+.section1 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    }
+
 #earth {
     min-width: 600px;
     margin: -80px;
@@ -49,10 +55,7 @@ html {
     width: 100%;
 }
 
-.section1 h1{
-margin-top: 100px;
-font-size: 50px;
-}
+
 
 
 /*claudia's work*/
@@ -295,7 +298,7 @@ font-size: 50px;
 }
 
 .comp6{
-    animation:shake 1s infinite;
+    
     display:flex;
     flex-direction: column;
 }
@@ -307,7 +310,7 @@ font-size: 50px;
     50% {transform: translate(0px, 2px) rotateZ(0deg)}
     75% {transform: translate(2px, 0px) rotateZ(-1deg)}
     100% {transform: translate(0px, 0px) rotateZ(0deg)}
-}
+} */
 
 
 /* Iori */
