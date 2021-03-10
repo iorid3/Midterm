@@ -1,8 +1,8 @@
 //section1 components
 document.querySelector(".comp1").innerHTML += Comp1UI("70px", "25px", "What's the issue?");
-document.querySelector(".section2_comp1").innerHTML += Comp1UI("60px", "25px", "What do people waste most?");
-document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "Images/professor.svg");
-document.querySelector(".comp2_section4").innerHTML += Comp2UI("15px", "22px", "Only 33% of participants plan their grocery shopping", "Images/pie_chart.svg");
+document.querySelector(".section2_comp1").innerHTML += Comp1UI("70px", "25px", "What do people waste most?");
+document.querySelector(".comp2").innerHTML += Comp2UI("70px", "25px", "Good Question!", "200px", "Images/professor.svg");
+document.querySelector(".comp2_section4").innerHTML += Comp2UI("50px", "30px", "Only 33% of participants plan their grocery shopping", "400px", "Images/pie_chart.svg");
 
 //section2 components
 document.querySelector(".comp3_1").innerHTML += Comp3UI('Average Canadian wastes 140kg of food in a year', 'Images/crowd.png')
@@ -36,7 +36,7 @@ document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/fruits.svg",text ="Made excessive food (37.3%)",color ="red",width ="150px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/soup.png",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/1.svg", "Have a smaller shopping list and increase the frequency of your grocery shopping trips");
 document.querySelector(".comp9").innerHTML += Comp9UI("Images/2.svg", "Consume your leftover food first");
