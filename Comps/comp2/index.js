@@ -12,12 +12,12 @@ function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="
         <div style='
             width: 300px;
             background-color: white;
-            border: 2px solid #00000;
+            border: 2px solid #000000;
             border-radius: 50px;
             padding-top:${padding};
             text-align: center;
-            border: 2px solid black;
             margin: 10px;
+            position: relative;
         '>
 
             <div style='
