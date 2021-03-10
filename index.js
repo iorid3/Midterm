@@ -47,8 +47,10 @@ document.querySelector(".comp10").innerHTML += Comp10UI("40px", "120deg", "10px"
 document.querySelector(".comp10").innerHTML += Comp10UI("50px", "80deg", "20px", "20px", "1.5s");
 document.querySelector(".comp10").innerHTML += Comp10UI("65px", "80deg", "40px", "120px", "2s");
 document.querySelector(".comp10").innerHTML += Comp10UI("75px", "100deg", "50px", "250px", "2.5s");
-document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "320px", "3s");
-document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "180px", "300px", "3.5s");
+document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px", "350px", "3s");
+document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "170px", "320px", "3.5s");
 
 document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
 document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
+document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-300, -300, 'Images/right-arrow.png')
+
