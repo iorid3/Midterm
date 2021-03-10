@@ -11,10 +11,10 @@ document.querySelector(".comp3_3").innerHTML += Comp3UI('About 63% of the food t
 document.querySelector(".comp3_4").innerHTML += Comp3UI('A single household waste approximately $100 per month', 'Images/family.svg')
 
 
-document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150, 2)
-document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50,2.5)
-document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-140,3)
-document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,20,3.5)
+document.querySelector(".comp4_1").innerHTML += Comp4UI('Images/vegetable.svg', 'Vegetables',70,-150)
+document.querySelector(".comp4_2").innerHTML += Comp4UI('Images/bread.svg', 'Bread & Bakery',70,50)
+document.querySelector(".comp4_3").innerHTML += Comp4UI('Images/fruits.svg', 'Fruits',130,-140)
+document.querySelector(".comp4_4").innerHTML += Comp4UI('Images/fridge.svg', 'Leftover',130,20)
 
 document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/down-arrow.svg')
 
@@ -34,7 +34,7 @@ document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of 
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers(59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables(55.6%)",color ="blue",width ="190px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about their food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/soup.png",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
