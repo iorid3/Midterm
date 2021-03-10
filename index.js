@@ -52,3 +52,7 @@ document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "180p
 
 document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
 document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
+
+function opacity (){
+    document.getElementsByClassName("canada").style.opacity = "100%"
+}
