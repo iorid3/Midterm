@@ -15,6 +15,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Leighai's work */
 .section1{
   width:100%;
