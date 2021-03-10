@@ -55,6 +55,16 @@ html {
 .section2 h2 {
     text-decoration: underline; 
 }
+.comp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp3:hover {
+    transform: scale(1.5);
+}
 
 .comp1_section2 {
     position:relative;
