@@ -34,7 +34,7 @@ document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of 
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers(59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables(55.6%)",color ="blue",width ="190px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fruits.svg",text ="Fruits(33.3%)",color ="red",width ="120px");
-document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about theif food in fridge(63%)",color ="orange",width ="240px");
+document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/confusion.png",text ="Forgot about their food in fridge(63%)",color ="orange",width ="240px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/motivation.png",text ="Less motivated to cook(48.1%)",color ="blue",width ="190px");
 document.querySelector(".comp8").innerHTML +=  Graphcomp2("Images/soup.png",text ="Made excessive food (37.3%)",color ="red",width ="150px");
 
