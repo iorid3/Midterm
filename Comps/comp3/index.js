@@ -12,8 +12,9 @@ function Comp3UI(Text='Average Canadian wastes 140kg of food in a year', url='ht
     
         '>
             <div style='
-                flex-basis: 200px;
+                flex-basis: 220px;
                 text-align: center;
+                font-size: 18px;
                 padding-right: 10px;
                 font-family: 'Poppins', sans-serif;
 

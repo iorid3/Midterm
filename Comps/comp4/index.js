@@ -31,10 +31,10 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
                 src='${url}' />    
         </div>  
         <div style='
-            font-family: 'Poppins', sans-serif;
             text-align: center;
             padding-top: 18px;
-            padding-left: 5px; 
+            padding-left: 10px; 
+            font-family: 'Poppins', sans-serif;
         '
          >${text}</div>
     `
