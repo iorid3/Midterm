@@ -434,28 +434,52 @@ html {
     width:300px;
     height:500px;
 }
+.fridge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
 .comp5_arrowphone {
     position: relative;
+}
+
+
+/* Maggie */
+
+
+.section6 {
+    display: none;
+}
+.section6_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
 }
 
 .start {
     font-size: 1.2em;
     margin-bottom: 100px;
 }
-
 .recipes {
-    width: 160px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0;
 
+}
+.recipes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
 .ready {
     font-size: 1.5em;
     margin-bottom: 100px;
 }
-/* Maggie */
-
-
-
-
-
