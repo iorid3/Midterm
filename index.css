@@ -25,6 +25,12 @@ html {
   align-items: center; 
 }
 
+
+.section1 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    }
+
 #earth {
     min-width: 600px;
     margin: -80px;
@@ -37,6 +43,9 @@ html {
     flex-wrap: wrap;
     width: 100%;
 }
+
+
+
 
 /*claudia's work*/
 .section2{
@@ -51,8 +60,19 @@ html {
 
 }
 .section2 h2 {
-    text-decoration: underline; 
+    font-size: 40px; 
 }
+
+.secondtitle{
+    text-decoration: underline;
+}
+.comp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .comp1_section2 {
     position:relative;
@@ -71,18 +91,21 @@ html {
     align-items: center;
     position: relative;
     padding: 0;
+    margin:100px;
 }
 
 .flag_container {
     position:relative;
+    margin-top: 60px;
+    
 }
 
 .flag {
     position:absolute;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 350px;
     top: -90px;
-    right: -110px;
+    right: -220px;
     z-index: -1;
 
 }
@@ -104,6 +127,7 @@ html {
     justify-content: center;
     position: relative;
     top: 400px;
+    max-width:80%;
 }
 
 .organic {
@@ -172,6 +196,32 @@ html {
     margin:10px;
 }
 
+.food_wastecontainer{
+ display:flex ;
+ flex-direction: row;
+ align-items: center;
+ justify-content:center;
+ width:100%;
+ height:40%;
+ margin-top:40px;
+ max-width: 80%;
+
+}
+
+.section3 h2{
+    font-size: 40px; 
+}
+
+.food_wastecontainer img{
+    width:100px;
+    height:100px;
+}
+
+.carboncontainer{
+    display:flex;
+    flex-direction: column;
+    max-width:500px;
+}   
 
 .comp6{
     display:flex;  
@@ -199,37 +249,67 @@ html {
     margin:100px;
 }
 
-.container1 {
-    position: relative;
-    right: 50px;  /*need to re-size*/
+
+
+.section4 h2{
+    font-size: 40px;
+    /* text-decoration: underline; */
 }
 
 .container3{
     width:100%;
     margin:100px; 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   
 }
 
 .container3 img{
-    width: 200px;
+    align-items:center;
+    justify-content: center;
+    width: 70%;
+    height:70%;
+    
+}
+.container3 h3{
+    font-size:40px; 
+    width:100%;
 }
 
 .comp6{
-    animation:shake 1s infinite;
     display:flex;
     flex-direction: column;
 }
 
+.surveycontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-@keyframes shake{
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+
+.container4{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.comp7{
+    display:flex; 
+    flex-direction:column;
+
+}
+
+.container5{
+    display:flex;
+}
+
+.comp8{
+    display:flex; 
+    flex-direction:column;
 }
 
 
@@ -330,32 +410,64 @@ html {
 }
 
 .brandname {
-    font-size: 3em;
-    margin-bottom: -20px;
+    margin-bottom:100px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .fridgephone {
     width: 450px;
     margin-bottom: -80px;
 }
+.fridge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
+}
 .comp5_arrowphone {
     position: relative;
 }
 
+
+/* Maggie */
+
+
+.section6 {
+    display: none;
+}
+.section6_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
 .start {
-    font-size: 1.2em;
+    font-size: 2.2em;
     margin-bottom: 100px;
 }
-
 .recipes {
-    width: 160px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0;
 
-.ready {
+}
+.recipes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.ready{
     font-size: 1.5em;
     margin-bottom: 100px;
+    max-width:500px;
+    text-align: center;
 }
-/* Maggie */

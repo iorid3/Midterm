@@ -12,10 +12,10 @@ function Comp4UI(url='https://placekitten.com/300/300',text='Bread & Bakery',x='
             top: ${x}px;
             left: ${y}px;
             animation-name: bouncing;
-            animation-duration: 2s;
+            animation-duration: 2.5s;
             animation-direction: alternate;
             animation-iteration-count: infinite;
-            animation-delay: 3s;
+            animation-delay: 0s;
 
         '   
         >

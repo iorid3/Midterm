@@ -7,14 +7,14 @@ function Comp1UI(padding="70px", size ="10px", text="text"){
             transition: opacity 1s;
             opacity: 0.15;
         '
-        onclick='Comp1UI.HandleClick(this)'
+        onmouseover='Comp1UI.HandleOver(this)'
         >
 
         <img style='
             width: 200px;
             object-fit: cover;
             margin: 10px;
-        'src="Images/question.svg"/>
+        'src="Images/problem.png"/>
 
         <div style='
             width: 300px;
@@ -35,6 +35,6 @@ function Comp1UI(padding="70px", size ="10px", text="text"){
     `
 }
 
-Comp1UI.HandleClick = (el) => { 
+Comp1UI.HandleOver = (el) => { 
     el.style.opacity = 1;
 }

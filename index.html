@@ -2,7 +2,10 @@
 <html>
     <head>
        <title>Mid term</title>
-        <link href= "./index.css"  rel ="stylesheet" type = "text/css" >
+        <link href= "./index.css"  rel ="stylesheet" type = "text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
     </head>
 <body>
    <div id = "main">
@@ -16,7 +19,7 @@
         </div>
 
         <div class = "section2">
-            <div><h2>Did you know that...</h2></div>
+            <div class = "secondtitle"><h2>Did you know that...</h2></div>
             <div class ="comp3_1"></div>
             <div class ="comp3_2"></div>
             <div class ="comp3_3"></div>
@@ -30,7 +33,7 @@
                 <div class = "flag"><img src = "./Images/canada.svg"></div>
             </div>
             <div class="common_food">
-                <div><h3>Most Common Foods Thrown out by Canadians</h3></div>
+                <div><h2>Most Common Foods Thrown out by Canadians</h2></div>
                 <div class = "container1"> 
                     <div class ="comp4_1"></div>
                     <div class ="comp4_2"></div>
@@ -41,26 +44,28 @@
                 
             <div class = "comp5_section2"></div> 
             <div class ="organic_container">   
-                <div><h3>In Canada, entirely, that is almost 2.2 million tonnes of food wasted</h3></div>
+                <div><h2>In Canada entirely, that is almost 2.2 million tonnes of food wasted</h2></div>
                 <div class="organic"><img src = "./Images/organic.png"></div>
             </div>
         </div>
         
         <div class = "section3">
-            <div><h2>How does food waste contribute to carbon foodprint?</h2></div>
-            <div><img src = ""></div>
-
+            <div class = "food_wastecontainer">
+            <div><h2>How does food waste contribute to carbon footprint?</h2></div>
+            <div><img src = "./Images/footstep.png"></div>
+            </div>
+          <div class = "carboncontainer">
             <div class = "comp6"></div>
             <div class = "comp6"></div>
             <div class = "comp6"></div>
             <div class = "comp6"></div>
             <div class = "comp6"></div>
 
-            <div class = "container2">
+            <!-- <div class = "container2">
                 <div><img class = "icons" src = "./Images/crop.svg"></div>
                 <div><img class = "icons" src = "./Images/recycling.png"></div>
                 <div><img class = "icons" src = "./Images/grocery.svg"></div>
-            </div>
+            </div> -->
 
 
         </div>
@@ -68,23 +73,25 @@
    
         <div class = "section4">
             <div class = "container3">
-                <div class = "comp2_section4">
-                    <div><h3>Survey Results</h3>
-                    <div>Out of 27 responses...</div>
-                </div>
-            </div>    
-        </div>   
+               <div class = "surveycontainer">
+                    <div><h3>Survey Results</h3></div>
+                    <div><h2>Out of 27 responses...</h2></div>  
+               </div>  
+           
+            <div> 
+               <div class = "comp2_section4"></div>
+            </div>   
 
 
             <div class ="comp2"></div>
-            <div><h4>Top3 foods that are wasted...</h4></div>
+            <div><h2>Top 3 foods that are wasted...</h2></div>
             <div class = "container4">    
                 <div class = "comp7"></div>
                 <div class = "comp7"></div>
                 <div class = "comp7"></div>
             </div>
 
-            <div><h4>Top3 reasons why they are wasted...</h4></div>
+            <div><h2>Top 3 reasons why they are wasted...</h2></div>
             <div class = "container5">    
                 <div class = "comp8"></div>
                 <div class = "comp8"></div>
@@ -112,19 +119,33 @@
 
             <div><h3 class="doyourpart">Do your part in saving the environment by ...</h3></div>
             <div><h2 class="usingapp">Using this app to reduce food waste</h2></div>
-            <div><h2 class="brandname">FridgeSaver</h2></div>
-            <div><img class="fridge" src="Images/Appimage.png"></div>
+            <div><p class="brandname">FridgeSaver</p></div>
+
+            <div class="fridge">
+                <img onclick="myFunction()" src="Images/fridge in phone.svg">
+            </div>
+<!-- 
+            <div><img class="fridge" src="Images/Appimage.png"></div> -->
+
 
             <div class = "comp5_arrowphone"></div>
+        </div>
 
-            <div><h5 class="start">Start with what you have in your fridge</h5></div>
+        <div class="section6">
+            <div class="section6_content">
+                <h5 class="start">Ready to save your food ?</h5>
+                <div class="recipes">
+                    <img src ="Images/recipes.png">
+                </div>
+                <h5 class = "ready">This mobile application provides recipes focused on using the foods in your fridge to save time and costs, all while minimizing food waste.</h5>
+            </div>
 
             
             <div><h5 class="ready">Ready to find interesting recipes?</h5></div>
 
 
             
-        </div>
+     
     
     </div> 
 

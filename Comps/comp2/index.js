@@ -1,4 +1,4 @@
-function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="Images/professor.svg"){
+function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="Images/headmaster.png"){
     return `
         <div style='
             display: inline-flex;
@@ -7,7 +7,7 @@ function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="
             transition: opacity 1s;
             opacity: 0.15;
         '
-        onclick='Comp1UI.HandleClick(this)'
+        onmouseover='Comp1UI.HandleOver(this)'
         >
         <div style='
             width: 300px;
@@ -36,6 +36,6 @@ function Comp2UI(padding="70px", size ="10px", text="text", width="200px", url="
     `
 }
 
-Comp1UI.HandleClick = (el) => { 
+Comp2UI.HandleOver  = (el) => { 
     el.style.opacity = 1;
 }
