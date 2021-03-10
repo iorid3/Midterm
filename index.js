@@ -51,6 +51,4 @@ document.querySelector(".comp10").innerHTML += Comp10UI("90px", "130deg", "100px
 document.querySelector(".comp10").innerHTML += Comp10UI("100px", "150deg", "170px", "320px", "3.5s");
 
 document.querySelector(".comp5_arrowsteps").innerHTML += Comp5UI(-350, -70, 'Images/down-arrow.svg')
-document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-320, 180, 'Images/down-arrow.svg')
 document.querySelector(".comp5_arrowphone").innerHTML += Comp5UI(-300, -300, 'Images/right-arrow.png')
-
