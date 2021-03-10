@@ -103,6 +103,7 @@ html {
 
 .flag_container {
     position:relative;
+    margin-top: 60px;
 }
 
 .flag {
@@ -118,7 +119,7 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 .container1 {
@@ -158,6 +159,7 @@ html {
 /*animation effects on section 2*/
 .comp3_1, .comp3_2, .comp3_3, .comp3_4 {
     padding: 10px;
+    margin: 20px;
 }
 
 .comp3_1:hover {
@@ -187,7 +189,7 @@ html {
 
 @keyframes bouncing {
     from{
-        transform: scale(0.5,0.5);
+        transform: scale(0.9,0.9);
     }
     to {
         transform: scale(1.2,1.2);
