@@ -29,7 +29,7 @@ document.querySelector(".comp5_section2").innerHTML += Comp5UI(200,-60,'Images/d
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Food waste that ends up in the landfill produces methane gas which 21x more potent than carbon dioxide ",url= "Images/garbage.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text ="It may give serious damage to our society",url ="Images/skull.svg" );
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "From the time we harvest foods, to processing, distribution and decomposition", url ="Images/barn.svg");
-document.querySelector(".comp6").innerHTML +=  Carboncomp(text = " 7% of greenhouse gases produced globally are due to preventable food waste",url ="Images/barn.svg");
+document.querySelector(".comp6").innerHTML +=  Carboncomp(text = " 7% of greenhouse gases produced globally are due to preventable food waste",url ="Images/factory.svg");
 document.querySelector(".comp6").innerHTML +=  Carboncomp(text = "Each stage of the food system produces gas emissions and negatively impact the climate",url ="Images/temperature.svg");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/fridge.svg",text ="Leftovers (59.3%)",color ="orange",width ="200px");
 document.querySelector(".comp7").innerHTML +=  Graphcomp("Images/vegetable.svg",text ="Vegetables (55.6%)",color ="blue",width ="190px");
