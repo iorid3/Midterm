@@ -1,6 +1,7 @@
 function Carboncomp(text =" 7% of greenhouse gases produced globally are due to preventable food waste", url= "images/factory.svg"){
     return `<div style = "
                           display:flex;
+                          animation:shake 3s infinite;
                           ">
                          <div style = "display:flex;
                          padding:10px;">
@@ -15,3 +16,4 @@ function Carboncomp(text =" 7% of greenhouse gases produced globally are due to 
             </div>`
 
 }
+

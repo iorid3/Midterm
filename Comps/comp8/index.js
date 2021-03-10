@@ -3,6 +3,7 @@ function Graphcomp2(url ="images/vegetable.svg",text ="Leftovers(59.3%)",color =
                           display:inline-flex;
                           flex-direction:row;
                           justify-content:center;
+                          margin:20px;
                           ">
                             <div class = "graph"
                             style ="

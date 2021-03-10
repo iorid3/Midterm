@@ -3,6 +3,7 @@ function Graphcomp(url ="images/vegetable.svg",text ="Leftovers(59.3%)",color ="
                           display:inline-flex;
                           align-items:flex-start;
                           justify-content:flex-start;
+                          margin:20px;
                           ">
                             <div style = "display:flex;
                             padding:10px;
@@ -17,7 +18,7 @@ function Graphcomp(url ="images/vegetable.svg",text ="Leftovers(59.3%)",color ="
                             margin-top:10px;
                             background-color:${color};
                             box-shadow: 3px 3px ;
-                            transition:background-color,1s,box-shadow, 1s;"
+                            transition:box-shadow, 1s;"
                             onmouseover = "Graphcomp.HandleMouseover(this)">
                             <div style ="
                             display:flex;
