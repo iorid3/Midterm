@@ -4,8 +4,8 @@ function Comp9UI(url="Images/1.svg", text="4 Ways to Make it Better") {
         display:flex;
         justify-content: center;
         align-items:center;
-    
         '>
+
         <img style='
             width: 80px;
             height: 80px;
