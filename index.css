@@ -71,8 +71,11 @@ html {
     
 }
 .section2 h2 {
-    text-decoration: underline;
     font-size: 40px; 
+}
+
+.secondtitle{
+    text-decoration: underline;
 }
 .comp3 {
     display: flex;
@@ -108,10 +111,10 @@ html {
 
 .flag {
     position:absolute;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 350px;
     top: -90px;
-    right: -110px;
+    right: -220px;
     z-index: -1;
     
 }
@@ -152,9 +155,6 @@ html {
     object-fit: cover;
 }
 
-.organic_container h3{
-    font-size: 25px;
-}
 
 /*animation effects on section 2*/
 .comp3_1, .comp3_2, .comp3_3, .comp3_4 {
@@ -227,6 +227,10 @@ html {
 
 }
 
+.section3 h2{
+    font-size: 40px; 
+}
+
 .food_wastecontainer img{
     width:100px;
     height:100px;
@@ -271,8 +275,8 @@ html {
 
 
 
-.section4 h4{
-    font-size: 22px;
+.section4 h2{
+    font-size: 40px;
     text-decoration: underline;
 }
 
@@ -300,19 +304,28 @@ html {
 }
 
 .comp6{
-    
     display:flex;
     flex-direction: column;
 }
 
+.container4{
+    display:flex;
+}
 
-@keyframes shake{
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
-} */
+.comp7{
+    display:flex; 
+    flex-direction:column;
+
+}
+
+.container5{
+    display:flex;
+}
+
+.comp8{
+    display:flex; 
+    flex-direction:column;
+}
 
 
 /* Iori */
